@@ -1,0 +1,247 @@
+[
+  {
+    "market": "NYSE",
+    "date": "2012-10-29",
+    "action": "close",
+    "reason": "Hurricane Sandy",
+    "source_files": [
+      "nyse_2012_sandy_web_verification.json"
+    ]
+  },
+  {
+    "market": "NYSE",
+    "date": "2012-10-30",
+    "action": "close",
+    "reason": "Hurricane Sandy",
+    "source_files": [
+      "nyse_2012_sandy_web_verification.json"
+    ]
+  },
+  {
+    "market": "NYSE",
+    "date": "2018-12-05",
+    "action": "close",
+    "reason": "National day of mourning for George H. W. Bush",
+    "source_files": [
+      "nyse_2018_bush.pdf"
+    ]
+  },
+  {
+    "market": "NYSE",
+    "date": "2025-01-09",
+    "action": "close",
+    "reason": "National day of mourning for Jimmy Carter",
+    "source_files": [
+      "nyse_2025_carter.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2012-01-07",
+    "action": "open",
+    "reason": "Special live trading session",
+    "source_files": [
+      "nse_2012_january_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2012-03-03",
+    "action": "open",
+    "reason": "Special live trading session",
+    "source_files": [
+      "nse_2012_march_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2012-04-28",
+    "action": "open",
+    "reason": "NSE cash-market live session confirmed by CSE exchange notice",
+    "source_files": [
+      "nse_2012_april_special_confirmation.html"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2012-09-08",
+    "action": "open",
+    "reason": "Special live session confirmed in NSE annual report 2012-13 PDF page 16, cash/derivatives chart note",
+    "source_files": [
+      "nse_annual_report_2013.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2013-05-11",
+    "action": "open",
+    "reason": "Special live trading session",
+    "source_files": [
+      "nse_2013_may_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2013-11-14",
+    "action": "open",
+    "reason": "Originally scheduled Moharram closure withdrawn; moved to November 15",
+    "source_files": [
+      "nse_2013_moharram.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2014-03-22",
+    "action": "open",
+    "reason": "Special live trading from BCP site",
+    "source_files": [
+      "nse_2014_march_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2015-02-28",
+    "action": "open",
+    "reason": "Special session confirmed in NSE annual report 2014-15 PDF page 12, cash/derivatives chart note",
+    "source_files": [
+      "nse_annual_report_2015.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2020-02-01",
+    "action": "open",
+    "reason": "Union Budget live session",
+    "source_files": [
+      "nse_2020_budget.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2023-06-28",
+    "action": "open",
+    "reason": "Bakri Id closure withdrawn; moved to June 29",
+    "source_files": [
+      "nse_2023_bakri_mirror.pdf",
+      "nse_2023_bakri_confirmation.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-01-20",
+    "action": "open",
+    "reason": "Regular live equity session at primary site; MSD60340 supersedes original DR-session notice MSD59999",
+    "source_files": [
+      "nse_2024_january_web_verification.json"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-03-02",
+    "action": "open",
+    "reason": "Special live session with DR-site switchover",
+    "source_files": [
+      "nse_2024_march_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-05-18",
+    "action": "open",
+    "reason": "Special live session with DR-site switchover",
+    "source_files": [
+      "nse_2024_may_special.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2025-02-01",
+    "action": "open",
+    "reason": "Union Budget live session",
+    "source_files": [
+      "nse_2025_budget.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2013-11-15",
+    "action": "close",
+    "reason": "Revised Moharram holiday",
+    "source_files": [
+      "nse_2013_moharram.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2014-10-15",
+    "action": "close",
+    "reason": "Maharashtra assembly election",
+    "source_files": [
+      "nse_2014_election.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2019-04-29",
+    "action": "close",
+    "reason": "Parliamentary election in Mumbai",
+    "source_files": [
+      "nse_2019_april.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2019-10-21",
+    "action": "close",
+    "reason": "Maharashtra assembly election",
+    "source_files": [
+      "nse_2019_october.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2023-06-29",
+    "action": "close",
+    "reason": "Revised Bakri Id holiday",
+    "source_files": [
+      "nse_2023_bakri_mirror.pdf",
+      "nse_2023_bakri_confirmation.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-01-22",
+    "action": "close",
+    "reason": "Exchange SURV60342 explicitly confirms capital-market closure CMTR60338",
+    "source_files": [
+      "nse_2024_january_confirmation.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-05-20",
+    "action": "close",
+    "reason": "Parliamentary election",
+    "source_files": [
+      "nse_2024_may.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2024-11-20",
+    "action": "close",
+    "reason": "Maharashtra assembly election",
+    "source_files": [
+      "nse_2024_november.pdf"
+    ]
+  },
+  {
+    "market": "NSE",
+    "date": "2014-04-24",
+    "action": "unverified",
+    "reason": "Likely parliamentary-election closure; archived FO26362 is derivatives-only. Cash-market circular not recovered; do not infer cash closure from prices or another segment.",
+    "source_files": [
+      "nse_2014_april_fo.pdf"
+    ]
+  }
+]

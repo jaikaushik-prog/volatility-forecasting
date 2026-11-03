@@ -1,0 +1,221 @@
+PAGE 1
+ 
+National Stock Exchange of India Limited 
+ 
+ 
+ 
+Circular 
+Department: MEMBER SERVICE DEPARTMENT 
+Download Ref No: NSE/MSD/61893 Date: May 07, 2024 
+Circular Ref. No: 40/2024  
+ 
+All Members, 
+ 
+Special Live trading session on Saturday, May 18, 2024 with intra day switch over to DR site 
+  
+This is in reference to SEBI circular SEBI/HO/MRD/DMS1/CIR/P/2019/43 dated March 26,2019 regarding 
+framework for Business Continuity Plan (BCP) and Disaster Recovery Site (DRS) for stock Exchanges and 
+depositories and Exchange Circular no. NSE/MSD/44692 dated June 18, 2020 regarding unannounced live 
+trading sessions from Disaster Recovery (DR) Site  and circular no. NSE/MSD/48662 dated June 18, 2021 
+regarding important guidelines in case of switchover of trading system to Disaster Recovery (DR) Site . 
+ 
+Members are requested to note that Exchange shall be conducting special live trading session with intra-day 
+switch over from Primary site to D isaster Recovery site on Saturday, May 18, 202 4 in Equity and Equity 
+Derivatives segments. The below shall be the trading session timings: 
+ 
+ 
+Capital Market (CM) Segment:  
+ 
+Live trading from Primary Site: 
+Saturday, May 18, 2024 Time 
+Trading Session-1 
+Morning Block Deal Window Session-1 open time 08:45 hrs 
+Morning Block Deal Window Session-1 close time 09:00 hrs 
+Pre-Open open time 09:00 hrs 
+Pre-Open close time * 09:08* hrs 
+Normal Market open time 09:15 hrs 
+Call Auction Illiquid session 1 open time 09:30 hrs 
+Call Auction Illiquid session 1 close time * 09:45 hrs 
+Normal Market close time 10:00 hrs 
+ 
+ 
+ 
+
+PAGE 2
+ 
+National Stock Exchange of India Limited 
+Page 2 of 5 
+ 
+ 
+ 
+Live trading from DR Site: 
+Saturday, May 18, 2024 Time 
+Trading Session-2  
+Pre-Open open time 11:15 hrs 
+Pre-Open close time * 11:23 hrs 
+Normal Market open time 11:30 hrs 
+Call Auction Illiquid session 2 open time  11:45 hrs 
+Call Auction Illiquid session 2 close time * 12:00 hrs 
+Normal Market close time 12:30 hrs 
+Closing Session open time 12:40 hrs 
+Closing Session close time 12:50 hrs 
+Trade Modification end time 13:00 hrs 
+*Random closure in last one minute 
+ 
+ 
+Futures & Options (F&O) Segment: 
+ 
+Live trading from Primary Site: 
+Saturday, May 18, 2024 Time 
+Trading Session-1 
+Normal Market open time 09:15 hrs 
+Normal Market close time 10:00 hrs 
+ 
+Live trading from DR Site: 
+Saturday, May 18, 2024 Time 
+Trading Session-2 
+Normal Market open time 11:30 hrs 
+Normal Market close time 12:30 hrs 
+Trade modification end time 12:40 hrs 
+ 
+Price bands for May 18, 2024: 
+ 
+Members may note the following changes in price bands / daily operating range (DPR) applicable for the Special 
+Live Trading Session on May 18, 2024: 
+• All securities (including those on which derivative products are available) will have a maximum price 
+band of 5%. Securities already in 2% or lower price band, shall continue to be available in the 
+respective bands. 
+• Price bands of 5% will be applicable on all close ended Mutual Funds.  
+• All futures contracts shall have daily operating range of 5%.  
+• No flexing of securities or futures contracts shall be applicable on that day. 
+
+PAGE 3
+ 
+National Stock Exchange of India Limited 
+Page 3 of 5 
+ 
+ 
+• The price band for Equity segment and Futures contracts which will be applicable at the start of the 
+day at DC shall be applicable at DR too. Any changes in price bands of options contracts due to market 
+factors upto the close time at Primary site would be carried forward to Disaster Recovery s ite. 
+ 
+ 
+All the above changes would be applicable for the Special Session only. S ecurities and Futures contracts will 
+revert back to the regular price band structure / DPR% / dummy bands & flexing mechanism from the next 
+trade date. 
+ 
+Further, members are requested to note that T0 session is not scheduled for trading on 18-May-2024 due to 
+settlement holiday. 
+ 
+Important instructions for members: 
+• Members are requested to note that Exchange shall shift its operation from primary site to DR site 
+as per the timings mentioned in the above tables . It shall be a graceful shutdown at the primary 
+site. Necessary actions should be taken at member's end as stated in circular  NSE/MSD/48662 
+dated June 18, 2021 to bring their systems into a consistent state.  
+ 
+• Members are requested to  note that this is being conducted based on specific discussions with 
+SEBI and their Technical Advisory Committee  with a view to assess the preparedness of MIIs to 
+handle any unforeseen event impacting their operations and to restore operations from DR Site 
+within the stipulated Recovery Time Objective in such event. 
+ 
+• For connecting to Primary/DR site, no changes in NEAT Adapter settings are required.  
+ 
+• The closing price for the day shall be arrived at as per the existing rules for a normal trading day.  
+ 
+• In case multiple trading sessions are conducted during the day for any reason, wherein market is 
+closed and re-opened, members are advised to refer to indicative close prices disseminated during last 
+half an hour of final session only. 
+ 
+• All the outstanding orders shall be purged before the start of trading from DR site. Members using NNF 
+software should clear the outstanding orders of session 1 in their systems before trading from DR site. 
+ 
+• 
+from DR site. 
+ 
+• Lease-line members are requested to connect to below mentioned IP address for Extranet . 
+- Extranet - 172.19.125.71 
+- C2N - 172.19.125.70 
+ 
+• Co-location facility and Multicast Tick by Tick (MTBT) feed shall be available. MTBT feed will be 
+available on the same Production IP's.  
+ 
+
+PAGE 4
+ 
+National Stock Exchange of India Limited 
+Page 4 of 5 
+ 
+ 
+• In Live trading session conducted from DR site, orders from colocation shall be routed from the Primary 
+site to the DR site. Similarly, the dissemination shall be done from the DR site to the colocation racks 
+in the Primary site.  
+ 
+• Latencies experienced by colocation participants will be different on Disaster Recovery/BCP day as 
+compared to a normal trading day.  
+ 
+• Notis and Drop copy application shall be available in both the sessions. 
+ 
+• For information regarding availability of ENIT and Member portal applications  shall be communicated 
+through a separate circular. 
+ 
+• Kindly refer to the website of NSE at www.nseindia.com for any information which may be 
+updated by the Exchange regarding switchover of operations from primary site to its Disaster 
+Recovery (DR) site during the trading session  on Saturday , May 18, 2024. Members are also 
+requested to refer the messages broadcasted by the Exchange on trading system for 
+communication with respect to trading from DR site. 
+ 
+• For other important instructions regarding live trading, members may kindly refer Annexures.  
+ 
+• All trades executed shall result in settlement obligations. The risk management, clearing and 
+settlement related details with respect to the trading activity of May 18, 2024 shall be communicated 
+separately by the respective clearing corporations. 
+       
+ 
+ 
+For and on behalf of 
+National Stock Exchange of India Limited 
+ 
+Khushal Shah 
+Associate Vice President 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Toll Free No Email id 
+1800-266-0050 (Option 1) msm@nse.co.in 
+
+PAGE 5
+ 
+National Stock Exchange of India Limited 
+Page 5 of 5 
+ 
+ 
+ 
+Annexure 
+  1 
+Operational instructions for Primary / DR trading session 
+ 
+1. Refer to Exchange circular download ref no NSE/MSD/61777 dated April 26,2024 for Interactive 
+Connectivity Parameters. 
+2. Market participants are encouraged t o refer to the FAQs on Disaster Recovery (DR45) 
+https://www.nseindia.com/trade/disaster-recovery-faqs available on the Exchange website. 
+3. In case of any queries please call Toll Free no: 1800 266 0050 (Option 1). 
+ 
+ 
+Annexure 
+  2 
+ 
+Important guidelines in case of switchover of trading system to Disaster Recovery (DR) Site  
+ 
+1. Kindly note below points after switch over to DR site: 
+a. Trades of primary site will be available in Previous Trades window. 
+b. Trades can be modified/cancelled using Multiple Trade Modification and Cancellation window 
+respectively. 
+c. Messages of primary site will be available in TWS Message Area.  
+ 
+2. If user renames or deletes the User folder and re-login the NEAT+ terminal, then data of primary site 
+shall not be available in the functional window as mentioned above point.  

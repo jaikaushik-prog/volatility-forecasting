@@ -1,0 +1,59 @@
+# Stage 4: predeclared provisional experiments; no holdout evaluation entry point.
+[data]
+latest_intraday = "reports/latest_intraday.json"
+protected_protocol = "config/forecasting.toml"
+assets = ["NIFTY", "SENSEX"]
+allow_provisional = true
+frequencies = [5, 1, 10, 15]
+scenarios = ["eligible", "exclude_questionable"]
+full_session_minutes = 375
+vix_extra_lag = 1
+questionable_stale_minutes = 10
+sessions_per_year = 252
+
+[data.user_confirmation]
+asset = "NIFTY"
+exchange = "NSE"
+instrument = "spot_index"
+reported_source = "NSE"
+evidence = "User: its nse and spot index"
+timestamp_convention_verified = false
+bar_label_verified = false
+independently_verified_vendor_export = false
+
+[splits]
+development = ["2022-01-01", "2023-12-31"]
+validation = ["2024-01-01", "2024-12-31"]
+holdout = ["2025-01-01", "2026-10-30"]
+holdout_sealed = true
+
+[estimation]
+window = 500                  # trailing session positions, not compressed valid rows
+min_observations = 126         # completed supervised pairs on identical HAR training rows
+refit_every = 21
+floor_fraction = 0.000001      # fraction of median positive training target, learned at each fit
+nonpositive_policy = "floor"   # keep raw prediction and flag every floor application
+log_bias_correction = "smearing"  # mean(exp(training residual)); no validation residuals
+max_annualized_vol = 5.0
+common_training = true
+
+[benchmarks]
+rv_ewma_decay = 0.94
+rv_ewma_init = 22              # mean realized variance, not variance of RV
+daily_min_observations = 252
+daily_window = 500
+daily_refit_every = 21
+
+[evaluation]
+seed = 20261103
+bootstrap_draws = 10000        # sufficient Monte Carlo resolution for the global Holm family
+bootstrap_block = 10
+minimum_inference_observations = 30
+alpha = 0.05
+rolling_loss_window = 60
+shock_multiple = 4.0
+recovery_sessions = 10
+
+[outputs]
+root = "experiments/har_rv/runs"
+reports = "reports"

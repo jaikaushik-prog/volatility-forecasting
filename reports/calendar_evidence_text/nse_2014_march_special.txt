@@ -1,0 +1,239 @@
+PAGE 1
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 1 of 9 
+ 
+ NATIONAL STOCK EXCHANGE OF INDIA LIMITED 
+DEPARTMENT : CAPITAL MARKET SEGMENT 
+Download Ref No : NSE/CMTR/26045 Date : March 04, 2014 
+Circular Ref. No : 011/2014  
+ 
+All Members, 
+Special session for Live Trading from BCP Site on Saturday, March 22, 2014 
+Exchange is conducting a  special session for live trading  on Saturday, March 22, 2014  from its 
+BCP site as per the following schedule:  
+Saturday, March 22, 2014 Start Time End Time 
+Pre Open* 11:00 hrs 11:08 hrs 
+Normal/ Odd lot /  Retail Debt Market 11:15 hrs 12:45 hrs 
+Block Deal Session  11:15 hrs 11:50 hrs 
+Call Auction Illiquid Session (only 1 session)* 11:30 hrs 12:15 hrs 
+SME Call Auction Session # 11:30 hrs 12:30 hrs 
+Closing Session 13:05 hrs 13:15 hrs 
+Re-Login  time 18:00 hrs 18:30 hrs  
+* Random closure in last one minute   
+# Random closure in last five minutes 
+ 
+The following operational instructions are to be noted and acted upon: 
+ 
+Annexure 1: Important Instructions regarding live trading session 
+Annexure 2: TAP configuration for BCP login for live trading session 
+Annexure 3: TAP configuration for login to live setup during Re-login session 
+ 
+For and on behalf of 
+National Stock Exchange of India Limited 
+ 
+Suprabhat Lala 
+Vice President 
+ 
+Toll Free No Fax No Email id 
+1800 2200 53 +91-22-26598155 cmtrade@nse.co.in 
+ 
+
+PAGE 2
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 2 of 9 
+ 
+Annexure – 1 
+Important Instructions regarding BCP live trading session 
+ Trades done on Saturday, March 22, 2014  shall be settled on Tuesday, March 25, 2014 , as a 
+separate settlement.  
+ Connect2NSE facility shall be available. Extranet facility wi ll not be available from 10:30 
+hrs.to 13:30 hrs. on Saturday, March 22, 2014. However, the extranet access using Internet will 
+be available for the members only in download mode.  
+ Co-location facility and Tick by Tick (TBT) feed shall be available. For C o-location, TBT feed 
+will be available on the same Production IP's.  
+ Select “BCP” radio button in TAP configuration parameters screen & save the same before 
+login in BCP environment (Details as per Annexure 2). 
+ For login to live environment in re-login session and from Monday March 24, 2014 onwards , 
+please select the “Primary” radio button in TAP configuration parameters screen & save the 
+same. (Details as per Annexure-3) 
+ Please refer to the website of NSE at www.nseindia.com for any information which may be 
+updated by the Exchange on the live session on March 22, 2014. 
+ In case of any queries please call Toll Free no: 1800 2200 53. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 3
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 3 of 9 
+Annexure- 2 
+A) TAP configuration for BCP login for Live trading session on Saturday, March 22, 
+2014  
+INTEGRATED WINDOWS TAP CONFIGURATION 
+1) Start TCMS. 
+2) Under the menu bar, select the TAB named „TAP‟. 
+3)  Go to TAP Configuration and select the market segment you want to configure. 
+4) In the configuration dialog, selecting “BCP” Radio Button . For eg., your screen will look 
+like this : 
+ 
+5) On Save click, under BCP 
+Prompt below is just a confirmation asked when respective TAP is running. 
+ 
+ 
+Select Yes 
+
+PAGE 4
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 4 of 9 
+ 
+ 
+6) Confirmation to save configuration for BCP environment. 
+ 
+ 
+Select yes 
+7) On successful modification, TCMS user will get a response “ Parameter(s) updated 
+successfully in Tap configuration file” for that particular market as shown in the fig. 
+below. Thus indicating that the changes made are reflected correctly.  
+ 
+ 
+ 
+Then select „Save‟ or „Save & Exit‟. 
+ 
+ 
+INTEGRATED LINUX TAP CONFIGURATION  
+1) Start the TCMS. 
+2) Select option TAP configuration Menu. 
+3) Then select particular market type, in which you want to make the changes (e.g CM). 
+4) To connect to BCP environment please select the option „Switch to BCP Configuration‟ 
+
+PAGE 5
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 5 of 9 
+ 
+ 
+5) Then select „Save‟ or „Save & Exit‟ 
+ 
+ 
+6) From Main Menu , Select “Start non running TAPs.” Option. 
+ 
+ 
+
+PAGE 6
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 6 of 9 
+ 
+ 
+B) Members are requested to verify following „Route‟ entries on their TAP server to 
+ensure successful login at BCP site. 
+ 
+Network Address  Netmask  Gateway Address 
+172.18.0.0   255.255.0.0  <gateway> 
+ Gateway address IP must be - TAP IP minus 1, which means, the last digit 
+of the IP minus 1. Example:- If TAP Server IP is 10.222.10.2 then Gateway 
+IP should be 10.222.10.1. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 7
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 7 of 9 
+ 
+Annexure – 3 
+TAP configuration for login to LIVE setup during Re-login session and on Monday, March 
+24, 2014 
+INTEGRATED WINDOWS TAP CONFIGURATION 
+1) Start TCMS. 
+2) Under the menu bar, select the TAB named „TAP‟. 
+3) Go to TAP Configuration and select the market segment you want to configure. 
+4) In the configuration dialog, selecting “Primary” Radio Button. For eg., your screen will look 
+like this :  
+ 
+ 
+ 
+ 
+5) On Save click, 
+Prompt below is just a confirmation asked when respective TAP is running. 
+ 
+ 
+
+PAGE 8
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 8 of 9 
+Select Yes 
+ 
+6) On successful modification, TCMS user will get a response “ Parameter(s) updated 
+successfully in Tap configuration file” for that particular market as shown in the fig. 
+below. Thus indicating that the changes made are reflected correctly.  
+ 
+ 
+INTEGRATED LINUX TAP CONFIGURATION  
+1) Start the TCMS. 
+2) Select option TAP configuration Menu. 
+3) Then select particular market type, in which you want to make the changes 
+4) To connect to Primary environment please select the option „Switch to Primary 
+Configuration‟ 
+ 
+ 
+ 
+5) Then select „Save‟ or „Save & Exit‟.  
+ 
+
+PAGE 9
+ 
+ 
+ 
+Regd. Office : Exchange Plaza, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051                Page 9 of 9 
+ 
+ 
+6) From Main Menu , Select “Start non running TAPs.” Option. 
+ 

@@ -1,0 +1,231 @@
+
+You are continuing the NEXUS Advanced Volatility
+Forecasting Research project.
+
+CURRENT TASK: STAGE 3
+Implement advanced volatility forecasting models:
+
+1. Two-state Markov-Switching Volatility
+2. XGBoost Volatility Forecasting
+
+First inspect the existing repository, forecasting
+interfaces, walk-forward engine, saved model
+forecasts, evaluation metrics and tests.
+
+Verify that historical benchmarks, EWMA and the
+GARCH-family models are implemented and tested.
+
+If critical prerequisites are missing, report
+them instead of fabricating comparison results.
+
+Do not rebuild existing working components.
+
+=========================================
+PART A — MARKOV-SWITCHING VOLATILITY
+=========================================
+
+Implement a two-state Markov-switching model.
+
+Regime 1: Low volatility
+Regime 2: High volatility
+
+Use statsmodels or another appropriate
+well-supported library.
+
+Model daily log returns with:
+- Two latent regimes
+- Regime-specific conditional variance
+- Estimated transition probabilities
+- Filtered regime probabilities
+- One-step-ahead variance predictions
+
+Start with a zero-mean specification.
+
+CRITICAL:
+Use filtered probabilities available at
+forecast origin, not full-sample smoothed
+regime probabilities.
+
+Do not classify historical regimes using
+future observations in the forecasting path.
+
+Estimate the transition matrix from training
+data only.
+
+At time t, use the filtered state probabilities
+and transition matrix to obtain the predictive
+state probabilities for t+1.
+
+Calculate the corresponding forecast variance.
+
+Use configurable rolling training windows
+and a documented re-estimation schedule.
+
+Between refits, ensure the filtering state
+incorporates newly observed returns without
+using future observations.
+
+Handle label switching, convergence failures
+and unstable regime estimates.
+
+Record model failures explicitly.
+
+=========================================
+PART B — XGBOOST VOLATILITY FORECASTING
+=========================================
+
+Implement an XGBoost model that predicts
+next-session conditional variance.
+
+Target:
+Squared log return at t+1.
+
+Potential lagged features:
+- Squared return at t
+- Absolute return at t
+- 5-day realized historical variance
+- 20-day rolling variance
+- 60-day rolling variance
+- EWMA variance
+- Negative-return indicators
+- Rolling drawdown
+- Historical volatility changes
+
+Only use information observable through t.
+
+All rolling features must be causally aligned.
+
+Handle the nonnegative, noisy variance target
+carefully.
+
+Implement an explicitly documented positive
+forecast transformation or output constraint.
+
+Track any invalid or clipped predictions.
+
+Use expanding or rolling walk-forward training.
+
+Never use random train/test splitting.
+
+All preprocessing and feature transformations
+must be fitted using training data only.
+
+Use time-series validation for hyperparameter
+selection.
+
+Start with a small predefined hyperparameter
+search space and control computational cost.
+
+Fix random seeds where applicable.
+
+Report feature importance using methods
+consistent with the fitted model.
+
+Do not claim feature importance is causal.
+
+=========================================
+PART C — EVALUATION AND COMPARISON
+=========================================
+
+Compare new models against:
+
+- Expanding historical volatility
+- Rolling 20-day volatility
+- Rolling 60-day volatility
+- EWMA
+- GARCH(1,1)
+- Student-t GARCH
+- EGARCH
+- GJR-GARCH
+
+Use identical next-session forecast targets
+and matched out-of-sample dates per asset.
+
+Compare using:
+- QLIKE
+- Variance MSE
+- Variance MAE
+- Calibration ratio
+- Forecast bias
+- Model failure rate
+- Computation time
+- Stability during volatility shocks
+
+Follow the existing development, validation
+and final-holdout protocol.
+
+Do not inspect or optimize against the final
+holdout before model selection is frozen.
+
+Ensure training labels are known by the
+forecast origin date.
+
+Test independently on:
+- NIFTY 50 TRI
+- SPY
+- VT
+
+Avoid asset-level leakage.
+
+Use appropriate paired tests and uncertainty
+intervals for performance comparisons.
+
+=========================================
+PART D — RESEARCH INSIGHTS
+=========================================
+
+Investigate:
+
+1. Does regime switching outperform GARCH?
+
+2. Does XGBoost capture nonlinear volatility
+   behavior missed by econometric models?
+
+3. Which models detect volatility transitions
+   most reliably?
+
+4. Which models overreact to short-lived shocks?
+
+5. Are advanced models consistently better
+   across India, US and global equities?
+
+6. Are improvements statistically meaningful?
+
+7. Does additional model complexity justify
+   implementation and maintenance costs?
+
+Do not invent empirical findings.
+
+=========================================
+PART E — TESTS AND DELIVERABLES
+=========================================
+
+Add tests for:
+- Strict causal feature alignment
+- Training target availability
+- Filtered vs smoothed regime probabilities
+- One-step transition calculations
+- Model refit scheduling
+- Forecast positivity
+- Missing-data handling
+- Forecast reproducibility
+- Future-information leakage
+
+Generate:
+
+reports/advanced_model_comparison.md
+reports/advanced_model_metrics.csv
+reports/regime_analysis.md
+reports/xgboost_features.md
+
+Generate relevant model comparison figures.
+
+Include exact execution commands, tests,
+actual results and unresolved issues.
+
+Do not implement position sizing yet.
+
+Do not implement Heston, HAR-RV, LSTM
+or Transformers in this stage.
+
+STOP after Stage 3.

@@ -1,0 +1,3 @@
+target,stage4_common_dates,stage4b_common_dates,shared_dates,lost_dates,gained_dates,identical_training_refits,changed_training_refits,unpaired_refits,max_log_har_prediction_difference,minimum_regression_training_pairs,maximum_regression_training_pairs,status
+intraday,226,226,226,[],[],19,0,0,4.87890977618477e-19,126,410,PROVISIONAL_EXPLORATORY
+intraday_overnight,226,226,226,[],[],19,0,0,3.7947076036992655e-19,126,410,PROVISIONAL_EXPLORATORY

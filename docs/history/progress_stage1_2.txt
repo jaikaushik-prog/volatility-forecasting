@@ -1,0 +1,63 @@
+
+Stage 1 and Stage 2 are complete, tested, and run on the real datasets. The holdout is sealed and Stage 3/4 exist only as documented interfaces.
+
+1. Repository changes
+
+- New package src/volrisk/forecasting/: base.py (unified VolatilityModel interface, FitReport, forecast record schema), registry.py, historical.py (expanding, rolling), ewma.py, garch.py (GARCH/EGARCH/GJR via arch), plus interface-only regime_switching.py, stochastic_volatility.py, realized_volatility.py, ml.py.
+- New package src/volrisk/evaluation/: walk_forward.py, metrics.py (QLIKE, MSE, MAE, calibration, bias, stability, DM/HAC, block bootstrap, Holm), diagnostics.py (8 figures per asset), reporting.py, experiment.py (runner, manifests, publishing).
+- src/volrisk/data/returns.py (canonical dataset loader, log vs simple returns kept separate), src/volrisk/forecast_cli.py, config/forecasting.toml (TOML rather than YAML to match the repo's stdlib convention), experiments/{baseline,econometric,advanced}/README.md.
+- Five new test modules, README Sprint 2 section, pyproject.toml (adds scipy, arch, volrisk-forecast entry point, optional [ml] extra), .gitignore.
+- Published outputs: reports/model_comparison.md, model_metrics.csv, statistical_tests.csv, regime_metrics.csv, parameter_stability.csv, pairwise_dm.csv, figures/ (24 PNGs), research_findings.md, pytest-forecasting.xml.
+- Nothing from Sprint 1A/1B was modified except the package docstring. The repo still has no commits; I did not commit.
+
+2. Models implemented
+
+Expanding, rolling-20, rolling-60, EWMA (λ=0.94, configurable), GARCH(1,1), EGARCH(1,1), GJR-GARCH(1,1), each with Gaussian and Student-t innovations. Zero mean, ×100 scaling converted back to decimal variance, 1000-session rolling window (min 500), refit every 21 sessions with O(1) state updates verified against arch's own filter. Markov-switching, XGBoost, latent SV, HAR-RV, Realized GARCH are registered as pending; Heston is marked NOT IMPLEMENTED (no options data exists, confirmed by data-check).
+
+3. Reproduce
+
+$env:PYTEST_DISABLE_PLUGIN_AUTOLOAD = '1'
+.\.venv\Scripts\python.exe -m pytest -q --junitxml=reports/pytest-forecasting.xml
+.\.venv\Scripts\python.exe -m volrisk.forecast_cli --config config/forecasting.toml run --experiment baseline --workers 4
+.\.venv\Scripts\python.exe -m volrisk.forecast_cli --config config/forecasting.toml run --experiment econometric --workers 4
+
+4. Tests
+
+174 passed (127 pre-existing + 47 new) in 32 s with warnings-as-errors. Covered: return handling, target alignment, warm-up, annualization, EWMA recursion and incremental equivalence, GARCH scaling and one-step/filtered equivalence with arch, positivity, failure recording and retry, no look-ahead (recording model), the synthetic future-shock test for all five implemented types, refit schedule, reproducibility, invalid-forecast bounds, metrics and tests, ML feature alignment, end-to-end runner and CLI.
+
+5. Out-of-sample comparison (common dates, dev+validation, QLIKE rank)
+
+┌─────────────────────────────────────┬────────────┬────────────┬────────────┐
+│                Model                │   NIFTY    │    SPY     │     VT     │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ gjr_normal                          │ 1          │ 4          │ 2          │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ gjr_t                               │ 2          │ 3          │ 3          │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ egarch_normal                       │ 3          │ 2          │ 1          │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ egarch_t                            │ 4          │ 1          │ 7          │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ garch_normal / garch_t              │ 5 / 6      │ 6 / 5      │ 5 / 4      │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ ewma_094                            │ 7          │ 7          │ 6          │
+├─────────────────────────────────────┼────────────┼────────────┼────────────┤
+│ rolling_20 / rolling_60 / expanding │ 8 / 9 / 10 │ 8 / 9 / 10 │ 8 / 9 / 10 │
+└─────────────────────────────────────┴────────────┴────────────┴────────────┘
+
+Full tables, per period, are in reports/model_comparison.md.
+
+6. Main observations
+
+- Asymmetric GARCH beats GARCH(1,1) by 0.03–0.05 QLIKE on every asset, same sign in both periods, but only SPY EGARCH in validation survives Holm correction.
+- Student-t innovations add nothing to one-step variance forecasts (|ΔQLIKE| ≤ 0.003) and cause the only instabilities (VT EGARCH-t).
+- Historical benchmarks are significantly worse than GARCH(1,1) in several cases but are the best calibrated; GARCH-family models over-forecast 30–45% in post-shock recoveries.
+- GJR adapts fastest to shocks; the expanding variance fails everywhere. Patterns are consistent across the three markets.
+
+7. Unresolved issues
+
+EGARCH-t fragility on VT (degenerate fits with ν at the 2.05 bound), GJR alpha at zero in 50–70% of refits, few shock observations for regime tables, no intraday or options data for Stage 4, partial 2026 sample.
+
+8. Stage 3 recommendations
+
+Advance gjr_normal, egarch_normal, garch_normal, and ewma_094; drop Student-t variants. Implement Markov-switching and XGBoost against these, tune on development, select on validation, keep the holdout sealed, and add a model confidence set.

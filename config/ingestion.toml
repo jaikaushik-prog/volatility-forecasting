@@ -1,0 +1,41 @@
+[ingestion]
+start = "2012-01-01"
+end = "2026-11-02" # Inclusive; fresh yfinance requests receive 2026-11-03.
+raw_dir = "data/raw"
+processed_dir = "data/processed"
+reports_dir = "reports"
+nifty_csv_dir = "data/raw/nifty50_tri"
+# Explicit replay of the real downloads made on 2026-11-03, without network access.
+etf_snapshot_dir = "data/raw/source_snapshots/20261103/yahoo"
+nifty_json_dir = "data/raw/source_snapshots/20261103/nifty"
+# Explicit override for numeric month-first CSVs, e.g. "%m/%d/%Y".
+# Default supports ISO, named months and Indian day-first numeric dates.
+nifty_date_format = ""
+
+[download]
+attempts = 3
+timeout_seconds = 20
+retry_backoff_seconds = 2.0
+
+[validation]
+extreme_simple_return = 0.10
+max_calendar_gap_days = 7
+stale_observations = 3
+min_observations = 200
+coverage_tolerance_days = 7
+
+[audit]
+calendar_file = "config/calendars.json"
+evidence_dir = "data/raw/audit_evidence/20261103"
+return_rtol = 1e-10
+return_atol = 1e-12
+mad_z_threshold = 8.0
+mad_min_abs_return = 0.03
+mad_min_observations = 30
+reversal_min_move = 0.08
+reversal_max_log_residual = 0.02
+split_log_tolerance = 0.03
+adjustment_rtol = 1e-5
+adjustment_factor_atol = 1e-4
+annualization_sessions = 252 # Descriptive convention, not a forecast input.
+event_plot_limit = 8

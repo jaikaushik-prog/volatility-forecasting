@@ -1,0 +1,12 @@
+{
+  "status": "PROVISIONAL",
+  "source_run_id": "d3094f857ec08cfaad204970",
+  "source_manifest_sha256": "40d9533fdba046f53decd76d677c94370d31439058453ca1c8e1b18da77e0bed",
+  "holdout_evaluated": false,
+  "script_sha256": "a9deda6c18b080635aea761fd280edfcb898fe153f07e5c2b62c48500f7da948",
+  "output_sha256": {
+    "reports/har_rv_findings.md": "dd9c389212cdfb50ae412aadce8a578e590460aef8024f4b60b8f162e47cb592",
+    "reports/figures/har_rv/NIFTY_core_qlike_detail.png": "3d7e2cf12763a60cde5bf034307d86d500a9dc3e36c2ea82acc22053d4b27b8f",
+    "reports/har_rv_floor_events.csv": "6e35691021d4fc763b7f11ca5719a1db20abb703c89b13e66f4b94d7244cd121"
+  }
+}

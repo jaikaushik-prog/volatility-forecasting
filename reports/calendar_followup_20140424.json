@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-11-03T10:33:22+00:00",
+  "market": "NSE cash equities",
+  "date": "2014-04-24",
+  "status": "UNVERIFIED_CASH_MARKET_CLOSURE",
+  "finding": "Further archive and member-mirror searches did not recover a cash-market closure notice. The date remains unverified, not a confirmed missing observation.",
+  "available_evidence": [
+    {
+      "url": "https://nsearchives.nseindia.com/content/circulars/FAOP26362.pdf",
+      "local_file": "data/raw/calendar_evidence/20261103/nse_2014_april_fo.pdf",
+      "scope": "Original NSE equity-derivatives circular; not used to certify cash-market closure."
+    },
+    {
+      "url": "https://www.business-standard.com/article/markets/markets-to-be-closed-on-apr-24-owing-to-elections-114040301123_1.html",
+      "scope": "Contemporary secondary reporting of NSE election closure; corroboration only."
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/sensex-nifty-remain-shut-on-april-24-as-mumbai-votes/articleshow/34137523.cms?from=mdr",
+      "scope": "Contemporary secondary reporting of NSE/BSE closure; corroboration only."
+    }
+  ],
+  "unavailable_routes": [
+    "NSE historical circular API for 2014-04-03 was inaccessible through the web reader.",
+    "ISE member circular mirror 2014CIR0253393.pdf returned a web-fetch error.",
+    "Candidate cash-market circular URLs near the known derivatives notice number could not be accessed. Their existence, content and relevance are not asserted."
+  ],
+  "next_required_evidence": "NSE cash-market circular, archived NSE equities holiday schedule including this amendment, or an explicit exchange/regulator confirmation covering cash trading.",
+  "data_action": "None: all original prices and returns preserved. The April 23 to April 25 observed return remains calendar-unverified."
+}

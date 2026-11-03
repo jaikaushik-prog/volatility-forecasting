@@ -1,0 +1,19 @@
+{
+  "run_id": "940447e060f8874e34b2724b",
+  "status": "PASS_SAVED_ARTIFACT_CHECKS",
+  "research_status": "PROVISIONAL_EXPLORATORY",
+  "holdout_evaluated": false,
+  "independent_confirmation": false,
+  "original_stage4_unchanged": true,
+  "forecast_records": 2988,
+  "positive_link_valid_forecasts": 1816,
+  "forecast_issuance_records": 2988,
+  "outputs_verified": 94,
+  "formal_paired_comparisons": 10,
+  "pytest": {
+    "tests": 286,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

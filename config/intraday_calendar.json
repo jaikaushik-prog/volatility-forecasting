@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-03",
+  "note": "NSE dates reuse the separately archived cash-market calendar. BSE annual dates are independently transcribed from BSE-authored releases, including syndicated copies where direct BSE requests returned 403. Unverified exceptional dates/times remain explicit; observed prices never establish a holiday or a session schedule.",
+  "markets": {
+    "NSE": {
+      "daily_calendar_market": "NSE",
+      "regular_segments": [["09:15", "15:30"]],
+      "session_overrides": {
+        "2015-02-28": {"segments": [], "verified": false, "kind": "budget_times_unverified"},
+        "2020-02-01": {"segments": [["09:15", "15:30"]], "verified": true, "kind": "budget"},
+        "2021-02-24": {"segments": [], "verified": false, "kind": "exchange_outage_extended_session_unverified"},
+        "2023-06-28": {"segments": [["09:15", "15:30"]], "verified": true, "kind": "regular"},
+        "2023-11-12": {"segments": [["18:15", "19:15"]], "verified": true, "kind": "muhurat"},
+        "2024-01-20": {"segments": [["09:15", "15:30"]], "verified": true, "kind": "special_full_day"},
+        "2024-03-02": {"segments": [["09:15", "10:00"], ["11:30", "12:30"]], "verified": true, "kind": "disaster_recovery"},
+        "2024-05-18": {"segments": [["09:15", "10:00"], ["11:30", "12:30"]], "verified": true, "kind": "disaster_recovery"},
+        "2024-11-01": {"segments": [["18:00", "19:00"]], "verified": true, "kind": "muhurat"},
+        "2025-02-01": {"segments": [["09:15", "15:30"]], "verified": true, "kind": "budget"},
+        "2025-10-21": {"segments": [["13:45", "14:45"]], "verified": true, "kind": "muhurat"},
+        "2026-02-01": {"segments": [["09:15", "15:30"]], "verified": true, "kind": "budget"}
+      }
+    },
+    "BSE": {
+      "timezone": "Asia/Kolkata",
+      "regular_segments": [["09:15", "15:30"]],
+      "verified_start": "2023-01-01",
+      "verified_end": "2026-10-30",
+      "holidays": [
+        "2023-01-26", "2023-03-07", "2023-03-30", "2023-04-04", "2023-04-07", "2023-04-14", "2023-05-01", "2023-06-29", "2023-08-15", "2023-09-19", "2023-10-02", "2023-10-24", "2023-11-14", "2023-11-27", "2023-12-25",
+        "2024-01-26", "2024-03-08", "2024-03-25", "2024-03-29", "2024-04-11", "2024-04-17", "2024-05-01", "2024-05-20", "2024-06-17", "2024-07-17", "2024-08-15", "2024-10-02", "2024-11-15", "2024-11-20", "2024-12-25",
+        "2025-02-26", "2025-03-14", "2025-03-31", "2025-04-10", "2025-04-14", "2025-04-18", "2025-05-01", "2025-08-15", "2025-08-27", "2025-10-02", "2025-10-22", "2025-11-05", "2025-12-25",
+        "2026-01-15", "2026-01-26", "2026-03-03", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-09-14", "2026-10-02", "2026-10-20"
+      ],
+      "special_sessions": ["2023-11-12", "2024-01-20", "2024-03-02", "2024-05-18", "2024-11-01", "2025-02-01", "2025-10-21", "2026-02-01"],
+      "unverified_dates": ["2024-01-20", "2024-01-22"],
+      "session_overrides": {
+        "2024-05-18": {"segments": [["09:15", "10:00"], ["11:30", "12:30"]], "verified": true, "kind": "disaster_recovery"}
+      },
+      "note": "Special dates without an independently reviewed cash-market time circular have no invented minute grid. January 20/22 amendments remain unverified for BSE in this integration, even though NSE evidence exists. Unknown candidate weekdays interrupt overnight adjacency."
+    }
+  },
+  "evidence": [
+    {"id": "nse_regular", "source": "https://www.nseindia.com/static/market-data/market-timings", "finding": "Cash normal market 09:15-15:30; pre-open and closing sessions are separate."},
+    {"id": "bse_regular", "source": "https://www.bseindia.com/markets/MarketInfo/DownloadAttach.aspx?attachedId=cb125690-a0f8-452a-ba6b-86cab98004bc&id=20230630-19", "finding": "BSE Equity master circular continuous trading 09:15-15:30; reviewed official indexed extract."},
+    {"id": "nse_2020_budget", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR43290.pdf", "finding": "Use existing archived nse_2020_budget.pdf evidence; normal cash-market session."},
+    {"id": "nse_2023_muhurat", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR59124.pdf", "finding": "2023-11-12 cash normal session 18:15-19:15."},
+    {"id": "nse_2024_muhurat", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR64628.pdf", "finding": "2024-11-01 cash normal session 18:00-19:00."},
+    {"id": "nse_2025_muhurat", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR70319.pdf", "finding": "2025-10-21 cash normal session 13:45-14:45."},
+    {"id": "nse_2024_march", "source": "https://nsearchives.nseindia.com/content/circulars/MSD60677.pdf", "finding": "2024-03-02 cash segments 09:15-10:00 and 11:30-12:30; existing archived PDF reviewed."},
+    {"id": "nse_2024_may", "source": "https://nsearchives.nseindia.com/content/circulars/MSD61893.pdf", "finding": "2024-05-18 cash segments 09:15-10:00 and 11:30-12:30; existing archive reviewed."},
+    {"id": "nse_2025_budget", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR65729.pdf", "finding": "2025-02-01 normal cash session 09:15-15:30; existing archive reviewed."},
+    {"id": "nse_2026_budget", "source": "https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf", "finding": "2026-02-01 normal cash session 09:15-15:30; existing archive reviewed."},
+    {"id": "bse_2023_annual", "source": "https://www.marketscreener.com/quote/stock/BSE-LIMITED-33930062/news/BSE-Trading-Holidays-for-the-Calendar-Year-2023-for-Equity-Equity-Derivatives-and-SLB-Segments-42505039/", "finding": "BSE-authored notice 20221208-31 syndicated unaltered by Publicnow. Fifteen initial weekday holidays; June date amended separately."},
+    {"id": "bse_2023_june", "source": "https://archives.nseindia.com/corporate/WIPRO_27062023201740_PA_Signed_27062023.pdf", "finding": "Issuer filing explicitly records BSE 20230627-2: June 28 working, June 29 holiday. Corroborating primary filing, not direct BSE archive."},
+    {"id": "bse_2024_annual", "source": "https://www.publicnow.com/view/763111B4C52D6A1053C38FA182DFE00F004F892F", "finding": "BSE-authored 20231212-40: fourteen scheduled weekday entries including Muhurat November 1; full date table reviewed through indexed extract. Direct site access returned 403."},
+    {"id": "bse_2024_may_close", "source": "https://www.ricago.com/assets/front/base/file/file_management/1714.pdf", "finding": "Mirrored BSE notice 20240408-25: equity market closed 2024-05-20."},
+    {"id": "bse_2024_nov_close", "source": "https://www.smifs.com/files/downloads/638669483305232188_Trading%20Holiday%20on%20account%20of%20Maharashtra%20Legislative%20Assembly%20General%20Election%20on%20November%2020%2C%202024.pdf", "finding": "Mirrored BSE 20241108-19: equity market closed 2024-11-20."},
+    {"id": "bse_2024_may_open", "source": "https://www.bseindia.com/downloads/SPDJ_ANN/MediaReleasePDF/1472152_mediareleasespecialtradingsessionfors%26pbseindices20240510.pdf", "finding": "Official BSE index release, indexed extract: indices calculated May 18, segments 09:15-10:00 and 11:30-12:30 IST."},
+    {"id": "bse_2025_annual", "source": "https://www.marketscreener.com/quote/stock/BSE-LIMITED-33930062/news/BSE-Trading-Holidays-for-the-Calendar-Year-2025-for-Equity-Equity-Derivatives-and-SLB-Segments-48588701/", "finding": "BSE-authored 20241213-30 syndicated through Publicnow: fourteen weekday entries, October 21 Muhurat special."},
+    {"id": "bse_2026_annual", "source": "https://www.steelcitynettrade.com/Circulars/BSE-Trading%20Holidays%20for%20the%20Calendar%20Year%202026%20for%20Equity%20and%20Equity%20Derivatives%20Segments.pdf", "finding": "Mirrored BSE-authored 20251212-8, fifteen weekday holidays; this integration stops October 30."},
+    {"id": "bse_2026_january", "source": "https://bigul.co/pdf/20260112-8%201.pdf", "finding": "Mirrored BSE 20260112-8 and 20260112-46 establish January 15 election trading holiday."},
+    {"id": "bse_2026_budget", "source": "https://www.ricago.com/assets/front/base/file/file_management/5077.pdf", "finding": "BSE 20260128-32 confirms February 1 live session and refers to 20260116-33; cash session times still unverified in this configuration."},
+    {"id": "india_vix", "source": "https://www.nseindia.com/static/products-services/indices-indiavix-index", "finding": "India VIX is annualized percentage volatility implied by NIFTY option quotes for approximately the next 30 calendar days; not realized variance."}
+  ]
+}

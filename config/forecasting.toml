@@ -1,0 +1,255 @@
+# NEXUS Sprint 2: volatility forecasting research configuration.
+# Paths are relative to the repository root (parent of config/).
+# Forecast quantity for every model: next-session conditional variance of the daily log return (decimal units).
+
+[data]
+latest_audit = "reports/latest_audit.json"   # canonical datasets produced by the Sprint 1B audit
+assets = ["NIFTY50_TRI", "SPY", "VT"]
+min_history = 252                              # common minimum number of valid returns before the first forecast
+sessions_per_year = 252                        # sigma_annual = sqrt(variance_daily * 252)
+require_verified_intervals = true              # uncertain calendar intervals break training/evaluation history
+
+[splits]                                       # assignment is by the forecast TARGET session date
+development = ["2012-01-01", "2021-12-31"]
+validation = ["2022-01-01", "2024-12-31"]
+holdout = ["2025-01-01", "2026-10-30"]
+holdout_sealed = true                          # exclude observations BEFORE fitting, forecasting, losses and diagnostics
+
+[walk_forward]
+retry_failed_fit = true                        # a failed estimation is retried at the next session; no model substitution
+min_annualized_vol = 0.001                     # forecasts below 0.1% annualized volatility are recorded as invalid
+max_annualized_vol = 5.0                       # forecasts above 500% annualized volatility are recorded as invalid
+
+[evaluation]
+regime_window = 60                             # trailing-variance window for ex-ante volatility regimes
+shock_multiple = 4.0                           # |r_{t+1}| > 4 trailing sd => retrospective "shock" session
+recovery_sessions = 60                         # sessions after a shock labelled "post_shock_recovery"
+bootstrap_block = 20                           # expected block length of the stationary bootstrap
+bootstrap_draws = 1000
+seed = 20261103
+alpha = 0.05
+rolling_window = 252                           # rolling out-of-sample performance window (sessions)
+
+[[evaluation.event_windows]]                   # retrospective, hand-labelled windows (NOT known at forecast origin)
+name = "calm_2017"
+start = "2017-01-01"
+end = "2017-12-31"
+kind = "low_volatility"
+
+[[evaluation.event_windows]]
+name = "volmageddon_feb_2018"
+start = "2018-02-01"
+end = "2018-02-28"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "q4_2018_selloff"
+start = "2018-10-01"
+end = "2018-12-31"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "covid_crash_2020"
+start = "2020-02-20"
+end = "2020-04-30"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "covid_recovery_2020"
+start = "2020-05-01"
+end = "2020-12-31"
+kind = "post_crisis_recovery"
+
+[[evaluation.event_windows]]
+name = "rate_shock_2022"
+start = "2022-01-01"
+end = "2022-12-31"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "recovery_2023"
+start = "2023-01-01"
+end = "2023-12-31"
+kind = "post_crisis_recovery"
+
+[[evaluation.event_windows]]
+name = "india_election_jun_2024"
+start = "2024-06-03"
+end = "2024-06-14"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "vol_spike_aug_2024"
+start = "2024-08-01"
+end = "2024-08-30"
+kind = "shock"
+
+[[evaluation.event_windows]]
+name = "tariff_shock_apr_2025"                 # inside the sealed holdout; only reported when the holdout is unsealed
+start = "2025-04-01"
+end = "2025-04-30"
+kind = "shock"
+
+# ------------------------------------------------------------------------------------------------
+# Model definitions. `type` selects the registry entry; remaining keys are model configuration.
+# ------------------------------------------------------------------------------------------------
+[models.expanding]
+type = "expanding"
+min_observations = 252
+ddof = 1
+
+[models.rolling_20]
+type = "rolling"
+window = 20
+min_observations = 252
+ddof = 1
+
+[models.rolling_60]
+type = "rolling"
+window = 60
+min_observations = 252
+ddof = 1
+
+[models.ewma_094]
+type = "ewma"
+decay = 0.94
+init_window = 252
+min_observations = 252
+
+[models.garch_normal]
+type = "garch"
+vol = "GARCH"
+p = 1
+o = 0
+q = 1
+dist = "normal"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+[models.garch_t]
+type = "garch"
+vol = "GARCH"
+p = 1
+o = 0
+q = 1
+dist = "t"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+[models.egarch_normal]
+type = "garch"
+vol = "EGARCH"
+p = 1
+o = 1
+q = 1
+dist = "normal"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+[models.egarch_t]
+type = "garch"
+vol = "EGARCH"
+p = 1
+o = 1
+q = 1
+dist = "t"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+[models.gjr_normal]
+type = "garch"
+vol = "GARCH"
+p = 1
+o = 1
+q = 1
+dist = "normal"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+[models.gjr_t]
+type = "garch"
+vol = "GARCH"
+p = 1
+o = 1
+q = 1
+dist = "t"
+window = 1000
+min_observations = 500
+refit_every = 21
+scale = 100.0
+
+# Stage 3 models. HAR-RV now runs in its separate target-specific config/har_rv.toml workflow;
+# it remains disabled here because this configuration supplies daily log returns only.
+[models.markov_switching_2]
+type = "markov_switching"
+enabled = true
+n_states = 2
+window = 1000
+min_observations = 500
+refit_every = 21
+
+[models.xgboost_v1]
+type = "xgboost"
+enabled = true
+window = 1500
+min_observations = 500
+refit_every = 21
+seed = 20261103
+tuning_end = "2021-12-31"                       # no hyperparameter selection on validation/holdout
+retune_every = 252                             # chronological development-only retuning
+cv_folds = 2
+cv_size = 60
+cv_min_train = 100
+min_train_samples = 300
+variance_floor = 1e-10
+target_scale = 10000.0
+search_space = [{max_depth = 2, n_estimators = 80}, {max_depth = 3, n_estimators = 80}, {max_depth = 2, n_estimators = 160}]
+
+[models.latent_sv]
+type = "latent_sv"
+enabled = false
+
+[models.heston]
+type = "heston"
+enabled = false
+
+[models.har_rv]
+type = "har_rv"
+enabled = false
+
+[models.realized_garch]
+type = "realized_garch"
+enabled = false
+
+# ------------------------------------------------------------------------------------------------
+# Experiments
+# ------------------------------------------------------------------------------------------------
+[experiments.baseline]
+description = "Stage 1: historical benchmarks and EWMA"
+models = ["expanding", "rolling_20", "rolling_60", "ewma_094"]
+benchmark = "rolling_60"
+publish_reports = false
+
+[experiments.econometric]
+description = "Stage 2: benchmarks plus GARCH, EGARCH and GJR-GARCH with Gaussian and Student-t innovations"
+models = ["expanding", "rolling_20", "rolling_60", "ewma_094",
+          "garch_normal", "garch_t", "egarch_normal", "egarch_t", "gjr_normal", "gjr_t"]
+benchmark = "garch_normal"
+publish_reports = true
+
+[experiments.advanced]
+description = "Stage 3: filtered Markov-switching and causal XGBoost versus all Stage 1/2 benchmarks"
+models = ["expanding", "rolling_20", "rolling_60", "ewma_094", "garch_normal", "garch_t",
+          "egarch_normal", "egarch_t", "gjr_normal", "gjr_t", "markov_switching_2", "xgboost_v1"]
+benchmark = "garch_normal"
+publish_reports = true

@@ -1,0 +1,38 @@
+{
+  "audit_id": "572f825c852d8c0c540a207e",
+  "data_type": "real saved source observations; not synthetic test results",
+  "input_file_hashes_verified": 143,
+  "output_file_hashes_verified": 21,
+  "assets": [
+    {
+      "asset": "SPY",
+      "observations": 3730,
+      "original_columns_unchanged": true,
+      "raw_hashes_unchanged": true,
+      "return_checks": "PASS",
+      "source_convention_verified": true,
+      "figures_exist": 5,
+      "validation_status": "WARNING"
+    },
+    {
+      "asset": "VT",
+      "observations": 3730,
+      "original_columns_unchanged": true,
+      "raw_hashes_unchanged": true,
+      "return_checks": "PASS",
+      "source_convention_verified": true,
+      "figures_exist": 5,
+      "validation_status": "WARNING"
+    },
+    {
+      "asset": "NIFTY50_TRI",
+      "observations": 3677,
+      "original_columns_unchanged": true,
+      "raw_hashes_unchanged": true,
+      "return_checks": "PASS",
+      "source_convention_verified": true,
+      "figures_exist": 5,
+      "validation_status": "WARNING"
+    }
+  ]
+}

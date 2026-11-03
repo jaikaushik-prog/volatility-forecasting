@@ -1,0 +1,53 @@
+# Frozen before new positive-link empirical results. 2024 is already explored.
+[data]
+stage4_pointer = "reports/latest_har_rv.json"
+required_stage4_run = "d3094f857ec08cfaad204970"
+cutoff = "2024-12-31"
+asset = "NIFTY"
+frequency = 5
+scenario = "eligible"
+status = "PROVISIONAL_EXPLORATORY"
+
+[estimation]
+window = 500
+min_observations = 126
+refit_every = 21
+floor_fraction = 0.000001  # ZERO-RV transformation only in new log models; no forecast floor
+log_bias_correction = "smearing"
+max_annualized_vol = 5.0
+
+[tuning]
+alphas = [0.1, 1.0, 10.0, 100.0]
+folds = [["2023-09-01", "2023-10-31"], ["2023-11-01", "2023-12-31"]]
+minimum_fold_observations = 30
+selection = "equal_fold_mean_qlike_then_larger_alpha_on_exact_tie"
+cutoff = "2023-12-31"
+
+[tuning.amendment]
+previous_registration = "b5441dbe33562a1781aae56f"
+previous_folds = [["2023-07-01", "2023-09-30"], ["2023-10-01", "2023-12-31"]]
+previous_common_counts = [15, 61]
+revised_coverage_counts = [35, 41]
+reason = "Coverage-only amendment: Q3 failed the fixed 30-observation minimum. No new 2024 model results existed; development loss values were not inspected to choose new boundaries."
+aborted_primary_grid_candidates = 4
+
+[evaluation]
+start = "2024-01-01"
+end = "2024-12-31"
+targets = ["intraday", "intraday_overnight"]
+seed = 20261103
+bootstrap_draws = 10000
+bootstrap_block = 10
+minimum_inference_observations = 30
+alpha = 0.05
+shock_multiple = 4.0
+recovery_sessions = 10
+# Four requested pairs plus the direct VIX-change increment; two targets = ten tests.
+pairs = [["log_har_vix", "log_har"], ["log_har_vix_change", "log_har"], ["ridge_log_har_vix", "log_har"], ["log_har_vix", "rv_ewma"], ["log_har_vix_change", "log_har_vix"]]
+diagnostic_floor_fractions = [0.000001, 0.0001, 0.001, 0.01, 0.1]
+vix_high_past_quantile = 0.75
+regime_min_history = 60
+
+[outputs]
+root = "experiments/stage4b/runs"
+reports = "reports"

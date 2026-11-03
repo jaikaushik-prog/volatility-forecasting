@@ -1,0 +1,23 @@
+{
+  "run_id": "892aa7cb55d7fd0249ea75a3",
+  "status": "PASS_NUMERICAL_AND_HASH_CHECKS",
+  "research_readiness": "PROVISIONAL_NOT_CERTIFIED",
+  "input_files_verified": 105,
+  "outputs_verified": 37,
+  "assets": [
+    {
+      "asset": "nifty",
+      "sessions": 942,
+      "complete_rv_sessions": 936,
+      "overnight_observations": 941
+    },
+    {
+      "asset": "sensex",
+      "sessions": 950,
+      "complete_rv_sessions": 797,
+      "overnight_observations": 913
+    }
+  ],
+  "vix_eod_available": 880,
+  "pickle_deserialized": false
+}

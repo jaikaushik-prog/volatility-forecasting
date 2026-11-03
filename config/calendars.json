@@ -1,0 +1,4244 @@
+{
+  "as_of": "2026-11-03",
+  "schema_version": 2,
+  "scope_note": "Reviewed 2012-2025 annual schedules plus amendments and existing 2026 schedule through November 2. Explicit unverified dates are holes in coverage. No holidays inferred from price data.",
+  "markets": {
+    "NYSE": {
+      "timezone": "America/New_York",
+      "verified_start": "2012-01-01",
+      "verified_end": "2026-11-02",
+      "holidays": [
+        "2012-01-02",
+        "2012-01-16",
+        "2012-02-20",
+        "2012-04-06",
+        "2012-05-28",
+        "2012-07-04",
+        "2012-09-03",
+        "2012-10-29",
+        "2012-10-30",
+        "2012-11-22",
+        "2012-12-25",
+        "2013-01-01",
+        "2013-01-21",
+        "2013-02-18",
+        "2013-03-29",
+        "2013-05-27",
+        "2013-07-04",
+        "2013-09-02",
+        "2013-11-28",
+        "2013-12-25",
+        "2014-01-01",
+        "2014-01-20",
+        "2014-02-17",
+        "2014-04-18",
+        "2014-05-26",
+        "2014-07-04",
+        "2014-09-01",
+        "2014-11-27",
+        "2014-12-25",
+        "2015-01-01",
+        "2015-01-19",
+        "2015-02-16",
+        "2015-04-03",
+        "2015-05-25",
+        "2015-07-03",
+        "2015-09-07",
+        "2015-11-26",
+        "2015-12-25",
+        "2016-01-01",
+        "2016-01-18",
+        "2016-02-15",
+        "2016-03-25",
+        "2016-05-30",
+        "2016-07-04",
+        "2016-09-05",
+        "2016-11-24",
+        "2016-12-26",
+        "2017-01-02",
+        "2017-01-16",
+        "2017-02-20",
+        "2017-04-14",
+        "2017-05-29",
+        "2017-07-04",
+        "2017-09-04",
+        "2017-11-23",
+        "2017-12-25",
+        "2018-01-01",
+        "2018-01-15",
+        "2018-02-19",
+        "2018-03-30",
+        "2018-05-28",
+        "2018-07-04",
+        "2018-09-03",
+        "2018-11-22",
+        "2018-12-05",
+        "2018-12-25",
+        "2019-01-01",
+        "2019-01-21",
+        "2019-02-18",
+        "2019-04-19",
+        "2019-05-27",
+        "2019-07-04",
+        "2019-09-02",
+        "2019-11-28",
+        "2019-12-25",
+        "2020-01-01",
+        "2020-01-20",
+        "2020-02-17",
+        "2020-04-10",
+        "2020-05-25",
+        "2020-07-03",
+        "2020-09-07",
+        "2020-11-26",
+        "2020-12-25",
+        "2021-01-01",
+        "2021-01-18",
+        "2021-02-15",
+        "2021-04-02",
+        "2021-05-31",
+        "2021-07-05",
+        "2021-09-06",
+        "2021-11-25",
+        "2021-12-24",
+        "2022-01-17",
+        "2022-02-21",
+        "2022-04-15",
+        "2022-05-30",
+        "2022-06-20",
+        "2022-07-04",
+        "2022-09-05",
+        "2022-11-24",
+        "2022-12-26",
+        "2023-01-02",
+        "2023-01-16",
+        "2023-02-20",
+        "2023-04-07",
+        "2023-05-29",
+        "2023-06-19",
+        "2023-07-04",
+        "2023-09-04",
+        "2023-11-23",
+        "2023-12-25",
+        "2024-01-01",
+        "2024-01-15",
+        "2024-02-19",
+        "2024-03-29",
+        "2024-05-27",
+        "2024-06-19",
+        "2024-07-04",
+        "2024-09-02",
+        "2024-11-28",
+        "2024-12-25",
+        "2025-01-01",
+        "2025-01-09",
+        "2025-01-20",
+        "2025-02-17",
+        "2025-04-18",
+        "2025-05-26",
+        "2025-06-19",
+        "2025-07-04",
+        "2025-09-01",
+        "2025-11-27",
+        "2025-12-25",
+        "2026-01-01",
+        "2026-01-19",
+        "2026-02-16",
+        "2026-04-03",
+        "2026-05-25",
+        "2026-06-19",
+        "2026-07-03",
+        "2026-09-07",
+        "2026-11-26",
+        "2026-12-25"
+      ],
+      "special_sessions": [],
+      "unverified_dates": [],
+      "sources": [
+        "https://hk.marketscreener.com/quote/stock/NYSE-EURONEXT-13866/news/NYSE-EURO-NYSE-Euronext-NYX-Announces-its-2012-and-2013-Holiday-Calendar-and-Early-Closings-for-13533281/",
+        "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2022-2023-and-2024-Holiday-and-Early-Closings-Calendar-2021.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2023-2024-and-2025-Holiday-and-Early-Closings-Calendar-2022.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/The-New-York-Stock-Exchange-Will-Close-Markets-on-January-9-to-Honor-the-Passing-of-Former-President-Jimmy-Carter-on-National-Day-of--IGCRS.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/archive/266fafb2-a85c-433a-8350-0760d895b49c.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/archive/313c9417-c6e3-46d3-b820-dbc7d9961ebd.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/archive/442a7c75-b606-4b5d-9853-2efa7d6634c3.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/archive/91a5230f-7233-4a93-b30a-79c9411ebdbe.pdf",
+        "https://s2.q4cdn.com/154085107/files/doc_news/archive/b97d77df-0ecb-4db0-9ced-75bdb9b218ba.pdf",
+        "https://www.nyse.com/trade/hours-calendars",
+        "https://www.sec.gov/files/rules/proposed/2013/34-69077.pdf"
+      ],
+      "annual_source_files": {
+        "2012": [
+          "nyse_2012_2013_web_verification.json"
+        ],
+        "2013": [
+          "nyse_2012_2013_web_verification.json"
+        ],
+        "2014": [
+          "nyse_2014_2015.pdf"
+        ],
+        "2015": [
+          "nyse_2014_2015.pdf"
+        ],
+        "2016": [
+          "nyse_2015_2016.pdf"
+        ],
+        "2017": [
+          "nyse_2017_2019.pdf"
+        ],
+        "2018": [
+          "nyse_2017_2019.pdf"
+        ],
+        "2019": [
+          "nyse_2017_2019.pdf"
+        ],
+        "2020": [
+          "nyse_2020_2022_initial.pdf"
+        ],
+        "2021": [
+          "nyse_2020_2022_initial.pdf"
+        ],
+        "2022": [
+          "nyse_2022_2024.pdf"
+        ],
+        "2023": [
+          "nyse_2023_2025.pdf"
+        ],
+        "2024": [
+          "nyse_2023_2025.pdf"
+        ],
+        "2025": [
+          "nyse_2023_2025.pdf"
+        ],
+        "2026": [
+          "nyse_2026.html"
+        ]
+      },
+      "date_evidence": [
+        {
+          "date": "2012-01-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-01-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-02-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-04-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-05-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-09-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-10-29",
+          "action": "close",
+          "reason": "Hurricane Sandy",
+          "source_files": [
+            "nyse_2012_sandy_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-10-30",
+          "action": "close",
+          "reason": "Hurricane Sandy",
+          "source_files": [
+            "nyse_2012_sandy_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-11-22",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2012-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-01-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-02-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-05-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-09-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-11-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2013-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2012_2013_web_verification.json"
+          ]
+        },
+        {
+          "date": "2014-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-01-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-02-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-04-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-05-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-09-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-11-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2014-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-01-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-02-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-04-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-05-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-07-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-09-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-11-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2014_2015.pdf"
+          ]
+        },
+        {
+          "date": "2016-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-01-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-02-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-03-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-05-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-09-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-11-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2016-12-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2015_2016.pdf"
+          ]
+        },
+        {
+          "date": "2017-01-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-01-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-02-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-05-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-09-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-11-23",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2017-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-01-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-02-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-03-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-05-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-09-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-11-22",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2018-12-05",
+          "action": "close",
+          "reason": "National day of mourning for George H. W. Bush",
+          "source_files": [
+            "nyse_2018_bush.pdf"
+          ]
+        },
+        {
+          "date": "2018-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-01-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-02-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-04-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-05-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-09-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-11-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2019-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2017_2019.pdf"
+          ]
+        },
+        {
+          "date": "2020-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-01-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-02-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-04-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-05-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-07-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-09-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-11-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2020-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-01-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-02-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-04-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-05-31",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-07-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-09-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-11-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2021-12-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2020_2022_initial.pdf"
+          ]
+        },
+        {
+          "date": "2022-01-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-02-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-04-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-05-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-06-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-09-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-11-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2022-12-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2022_2024.pdf"
+          ]
+        },
+        {
+          "date": "2023-01-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-01-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-02-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-04-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-05-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-09-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-11-23",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2023-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-01-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-02-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-05-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-06-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-09-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-11-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2024-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-01-09",
+          "action": "close",
+          "reason": "National day of mourning for Jimmy Carter",
+          "source_files": [
+            "nyse_2025_carter.pdf"
+          ]
+        },
+        {
+          "date": "2025-01-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-02-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-04-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-05-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-06-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-07-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-09-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-11-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2025-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2023_2025.pdf"
+          ]
+        },
+        {
+          "date": "2026-01-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-01-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-05-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-06-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-07-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-09-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        },
+        {
+          "date": "2026-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nyse_2026.html"
+          ]
+        }
+      ],
+      "note": "Applies to all NYSE markets, including Arca. Early closes remain valid daily sessions. Coverage ends at the audit cutoff. Explicit unverified_dates are excluded from authoritative session counts."
+    },
+    "NSE": {
+      "timezone": "Asia/Kolkata",
+      "verified_start": "2012-01-01",
+      "verified_end": "2026-11-02",
+      "holidays": [
+        "2012-01-26",
+        "2012-02-20",
+        "2012-03-08",
+        "2012-04-05",
+        "2012-04-06",
+        "2012-05-01",
+        "2012-08-15",
+        "2012-08-20",
+        "2012-09-19",
+        "2012-10-02",
+        "2012-10-24",
+        "2012-11-14",
+        "2012-11-28",
+        "2012-12-25",
+        "2013-03-27",
+        "2013-03-29",
+        "2013-04-19",
+        "2013-04-24",
+        "2013-05-01",
+        "2013-08-09",
+        "2013-08-15",
+        "2013-09-09",
+        "2013-10-02",
+        "2013-10-16",
+        "2013-11-04",
+        "2013-11-15",
+        "2013-12-25",
+        "2014-02-27",
+        "2014-03-17",
+        "2014-04-08",
+        "2014-04-14",
+        "2014-04-18",
+        "2014-05-01",
+        "2014-07-29",
+        "2014-08-15",
+        "2014-08-29",
+        "2014-10-02",
+        "2014-10-03",
+        "2014-10-06",
+        "2014-10-15",
+        "2014-10-24",
+        "2014-11-04",
+        "2014-11-06",
+        "2014-12-25",
+        "2015-01-26",
+        "2015-02-17",
+        "2015-03-06",
+        "2015-04-02",
+        "2015-04-03",
+        "2015-04-14",
+        "2015-05-01",
+        "2015-09-17",
+        "2015-09-25",
+        "2015-10-02",
+        "2015-10-22",
+        "2015-11-12",
+        "2015-11-25",
+        "2015-12-25",
+        "2016-01-26",
+        "2016-03-07",
+        "2016-03-24",
+        "2016-03-25",
+        "2016-04-14",
+        "2016-04-15",
+        "2016-04-19",
+        "2016-07-06",
+        "2016-08-15",
+        "2016-09-05",
+        "2016-09-13",
+        "2016-10-11",
+        "2016-10-12",
+        "2016-10-31",
+        "2016-11-14",
+        "2017-01-26",
+        "2017-02-24",
+        "2017-03-13",
+        "2017-04-04",
+        "2017-04-14",
+        "2017-05-01",
+        "2017-06-26",
+        "2017-08-15",
+        "2017-08-25",
+        "2017-10-02",
+        "2017-10-20",
+        "2017-12-25",
+        "2018-01-26",
+        "2018-02-13",
+        "2018-03-02",
+        "2018-03-29",
+        "2018-03-30",
+        "2018-05-01",
+        "2018-08-15",
+        "2018-08-22",
+        "2018-09-13",
+        "2018-09-20",
+        "2018-10-02",
+        "2018-10-18",
+        "2018-11-08",
+        "2018-11-23",
+        "2018-12-25",
+        "2019-03-04",
+        "2019-03-21",
+        "2019-04-17",
+        "2019-04-19",
+        "2019-04-29",
+        "2019-05-01",
+        "2019-06-05",
+        "2019-08-12",
+        "2019-08-15",
+        "2019-09-02",
+        "2019-09-10",
+        "2019-10-02",
+        "2019-10-08",
+        "2019-10-21",
+        "2019-10-28",
+        "2019-11-12",
+        "2019-12-25",
+        "2020-02-21",
+        "2020-03-10",
+        "2020-04-02",
+        "2020-04-06",
+        "2020-04-10",
+        "2020-04-14",
+        "2020-05-01",
+        "2020-05-25",
+        "2020-10-02",
+        "2020-11-16",
+        "2020-11-30",
+        "2020-12-25",
+        "2021-01-26",
+        "2021-03-11",
+        "2021-03-29",
+        "2021-04-02",
+        "2021-04-14",
+        "2021-04-21",
+        "2021-05-13",
+        "2021-07-21",
+        "2021-08-19",
+        "2021-09-10",
+        "2021-10-15",
+        "2021-11-05",
+        "2021-11-19",
+        "2022-01-26",
+        "2022-03-01",
+        "2022-03-18",
+        "2022-04-14",
+        "2022-04-15",
+        "2022-05-03",
+        "2022-08-09",
+        "2022-08-15",
+        "2022-08-31",
+        "2022-10-05",
+        "2022-10-26",
+        "2022-11-08",
+        "2023-01-26",
+        "2023-03-07",
+        "2023-03-30",
+        "2023-04-04",
+        "2023-04-07",
+        "2023-04-14",
+        "2023-05-01",
+        "2023-06-29",
+        "2023-08-15",
+        "2023-09-19",
+        "2023-10-02",
+        "2023-10-24",
+        "2023-11-14",
+        "2023-11-27",
+        "2023-12-25",
+        "2024-01-22",
+        "2024-01-26",
+        "2024-03-08",
+        "2024-03-25",
+        "2024-03-29",
+        "2024-04-11",
+        "2024-04-17",
+        "2024-05-01",
+        "2024-05-20",
+        "2024-06-17",
+        "2024-07-17",
+        "2024-08-15",
+        "2024-10-02",
+        "2024-11-15",
+        "2024-11-20",
+        "2024-12-25",
+        "2025-02-26",
+        "2025-03-14",
+        "2025-03-31",
+        "2025-04-10",
+        "2025-04-14",
+        "2025-04-18",
+        "2025-05-01",
+        "2025-08-15",
+        "2025-08-27",
+        "2025-10-02",
+        "2025-10-22",
+        "2025-11-05",
+        "2025-12-25",
+        "2026-01-15",
+        "2026-01-26",
+        "2026-03-03",
+        "2026-03-26",
+        "2026-03-31",
+        "2026-04-03",
+        "2026-04-14",
+        "2026-05-01",
+        "2026-05-28",
+        "2026-06-26",
+        "2026-09-14",
+        "2026-10-02",
+        "2026-10-20",
+        "2026-11-10",
+        "2026-11-24",
+        "2026-12-25"
+      ],
+      "special_sessions": [
+        "2012-01-07",
+        "2012-03-03",
+        "2012-04-28",
+        "2012-09-08",
+        "2012-11-13",
+        "2013-05-11",
+        "2013-11-03",
+        "2013-11-14",
+        "2014-03-22",
+        "2014-10-23",
+        "2015-02-28",
+        "2015-11-11",
+        "2016-10-30",
+        "2017-10-19",
+        "2018-11-07",
+        "2019-10-27",
+        "2020-02-01",
+        "2020-11-14",
+        "2021-11-04",
+        "2022-10-24",
+        "2023-06-28",
+        "2023-11-12",
+        "2024-01-20",
+        "2024-03-02",
+        "2024-05-18",
+        "2024-11-01",
+        "2025-02-01",
+        "2025-10-21",
+        "2026-02-01"
+      ],
+      "unverified_dates": [
+        "2014-04-24"
+      ],
+      "sources": [
+        "https://geplcapital.com/fundamental-research/649a873a2dbe6.1687848762.CMTR57285.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMPT57296.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR19539.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR19734.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR20063.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR22317.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR23302.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR24977.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR25326.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR26045.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR27792.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR28337.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR31297.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR33746.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR36475.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR39612.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR40536.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR42877.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR43290.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR46623.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR50560.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR54757.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR59722.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR61518.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR64960.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR65587.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR65729.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/FAOP26362.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/MSD42319.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/MSD60340.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/MSD60677.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/MSD61893.pdf",
+        "https://nsearchives.nseindia.com/content/circulars/SURV60342.pdf",
+        "https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2013.pdf",
+        "https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2015.pdf",
+        "https://www.cse-india.com/upload/CSE%20Notices%20%26%20Circulars/2012/Notice260412.htm"
+      ],
+      "annual_source_files": {
+        "2012": [
+          "nse_2012_annual.pdf"
+        ],
+        "2013": [
+          "nse_2013_annual.pdf"
+        ],
+        "2014": [
+          "nse_2014_capital_market.pdf"
+        ],
+        "2015": [
+          "nse_2015_annual.pdf"
+        ],
+        "2016": [
+          "nse_2016_annual.pdf"
+        ],
+        "2017": [
+          "nse_2017_annual.pdf"
+        ],
+        "2018": [
+          "nse_2018_annual.pdf"
+        ],
+        "2019": [
+          "nse_2019_annual.pdf"
+        ],
+        "2020": [
+          "nse_2020_annual.pdf"
+        ],
+        "2021": [
+          "nse_2021_annual.pdf"
+        ],
+        "2022": [
+          "nse_2022_annual.pdf"
+        ],
+        "2023": [
+          "nse_2023_annual.pdf"
+        ],
+        "2024": [
+          "nse_2024_annual.pdf"
+        ],
+        "2025": [
+          "nse_2025_annual.pdf"
+        ],
+        "2026": [
+          "nse_2026_holidays.pdf",
+          "nse_2026_election.pdf",
+          "nse_2026_budget.pdf"
+        ]
+      },
+      "date_evidence": [
+        {
+          "date": "2012-01-07",
+          "action": "open",
+          "reason": "Special live trading session",
+          "source_files": [
+            "nse_2012_january_special.pdf"
+          ]
+        },
+        {
+          "date": "2012-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-02-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-03-03",
+          "action": "open",
+          "reason": "Special live trading session",
+          "source_files": [
+            "nse_2012_march_special.pdf"
+          ]
+        },
+        {
+          "date": "2012-03-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-04-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-04-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-04-28",
+          "action": "open",
+          "reason": "NSE cash-market live session confirmed by CSE exchange notice",
+          "source_files": [
+            "nse_2012_april_special_confirmation.html"
+          ]
+        },
+        {
+          "date": "2012-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-08-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-09-08",
+          "action": "open",
+          "reason": "Special live session confirmed in NSE annual report 2012-13 PDF page 16, cash/derivatives chart note",
+          "source_files": [
+            "nse_annual_report_2013.pdf"
+          ]
+        },
+        {
+          "date": "2012-09-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-10-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-11-13",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-11-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-11-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2012-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2012_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-03-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-04-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-04-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-05-11",
+          "action": "open",
+          "reason": "Special live trading session",
+          "source_files": [
+            "nse_2013_may_special.pdf"
+          ]
+        },
+        {
+          "date": "2013-08-09",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-09-09",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-10-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-11-03",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-11-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2013-11-14",
+          "action": "open",
+          "reason": "Originally scheduled Moharram closure withdrawn; moved to November 15",
+          "source_files": [
+            "nse_2013_moharram.pdf"
+          ]
+        },
+        {
+          "date": "2013-11-15",
+          "action": "close",
+          "reason": "Revised Moharram holiday",
+          "source_files": [
+            "nse_2013_moharram.pdf"
+          ]
+        },
+        {
+          "date": "2013-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2013_annual.pdf"
+          ]
+        },
+        {
+          "date": "2014-02-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-03-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-03-22",
+          "action": "open",
+          "reason": "Special live trading from BCP site",
+          "source_files": [
+            "nse_2014_march_special.pdf"
+          ]
+        },
+        {
+          "date": "2014-04-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-04-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-04-24",
+          "action": "unverified",
+          "reason": "Likely parliamentary-election closure; archived FO26362 is derivatives-only. Cash-market circular not recovered; do not infer cash closure from prices or another segment.",
+          "source_files": [
+            "nse_2014_april_fo.pdf"
+          ]
+        },
+        {
+          "date": "2014-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-07-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-08-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-15",
+          "action": "close",
+          "reason": "Maharashtra assembly election",
+          "source_files": [
+            "nse_2014_election.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-23",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-10-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-11-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-11-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2014-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2014_capital_market.pdf"
+          ]
+        },
+        {
+          "date": "2015-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-02-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-02-28",
+          "action": "open",
+          "reason": "Special session confirmed in NSE annual report 2014-15 PDF page 12, cash/derivatives chart note",
+          "source_files": [
+            "nse_annual_report_2015.pdf"
+          ]
+        },
+        {
+          "date": "2015-03-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-04-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-04-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-09-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-09-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-10-22",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-11-11",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-11-12",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-11-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2015-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2015_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-03-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-03-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-03-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-04-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-04-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-07-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-09-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-09-13",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-10-11",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-10-12",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-10-30",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-10-31",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2016-11-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2016_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-02-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-03-13",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-04-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-06-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-08-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-10-19",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-10-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2017-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2017_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-02-13",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-03-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-03-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-08-22",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-09-13",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-09-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-10-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-11-07",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-11-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-11-23",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2018-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2018_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-03-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-03-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-04-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-04-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-04-29",
+          "action": "close",
+          "reason": "Parliamentary election in Mumbai",
+          "source_files": [
+            "nse_2019_april.pdf"
+          ]
+        },
+        {
+          "date": "2019-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-06-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-08-12",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-09-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-09-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-10-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-10-21",
+          "action": "close",
+          "reason": "Maharashtra assembly election",
+          "source_files": [
+            "nse_2019_october.pdf"
+          ]
+        },
+        {
+          "date": "2019-10-27",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-10-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-11-12",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2019-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2019_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-02-01",
+          "action": "open",
+          "reason": "Union Budget live session",
+          "source_files": [
+            "nse_2020_budget.pdf"
+          ]
+        },
+        {
+          "date": "2020-02-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-03-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-04-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-04-06",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-04-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-05-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-11-14",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-11-16",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-11-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2020-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2020_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-03-11",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-04-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-04-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-05-13",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-07-21",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-08-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-09-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-10-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-11-04",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-11-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2021-11-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2021_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-03-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-03-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-04-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-05-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-08-09",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-08-31",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-10-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-10-24",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-10-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2022-11-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2022_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-03-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-03-30",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-04-04",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-04-07",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-06-28",
+          "action": "open",
+          "reason": "Bakri Id closure withdrawn; moved to June 29",
+          "source_files": [
+            "nse_2023_bakri_mirror.pdf",
+            "nse_2023_bakri_confirmation.pdf"
+          ]
+        },
+        {
+          "date": "2023-06-29",
+          "action": "close",
+          "reason": "Revised Bakri Id holiday",
+          "source_files": [
+            "nse_2023_bakri_mirror.pdf",
+            "nse_2023_bakri_confirmation.pdf"
+          ]
+        },
+        {
+          "date": "2023-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-09-19",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-10-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-11-12",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-11-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-11-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2023-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2023_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-01-20",
+          "action": "open",
+          "reason": "Regular live equity session at primary site; MSD60340 supersedes original DR-session notice MSD59999",
+          "source_files": [
+            "nse_2024_january_web_verification.json"
+          ]
+        },
+        {
+          "date": "2024-01-22",
+          "action": "close",
+          "reason": "Exchange SURV60342 explicitly confirms capital-market closure CMTR60338",
+          "source_files": [
+            "nse_2024_january_confirmation.pdf"
+          ]
+        },
+        {
+          "date": "2024-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-03-02",
+          "action": "open",
+          "reason": "Special live session with DR-site switchover",
+          "source_files": [
+            "nse_2024_march_special.pdf"
+          ]
+        },
+        {
+          "date": "2024-03-08",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-03-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-03-29",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-04-11",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-04-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-05-18",
+          "action": "open",
+          "reason": "Special live session with DR-site switchover",
+          "source_files": [
+            "nse_2024_may_special.pdf"
+          ]
+        },
+        {
+          "date": "2024-05-20",
+          "action": "close",
+          "reason": "Parliamentary election",
+          "source_files": [
+            "nse_2024_may.pdf"
+          ]
+        },
+        {
+          "date": "2024-06-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-07-17",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-11-01",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-11-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2024-11-20",
+          "action": "close",
+          "reason": "Maharashtra assembly election",
+          "source_files": [
+            "nse_2024_november.pdf"
+          ]
+        },
+        {
+          "date": "2024-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2024_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-02-01",
+          "action": "open",
+          "reason": "Union Budget live session",
+          "source_files": [
+            "nse_2025_budget.pdf"
+          ]
+        },
+        {
+          "date": "2025-02-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-03-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-03-31",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-04-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-04-18",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-08-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-08-27",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-10-21",
+          "action": "open",
+          "reason": "Muhurat trading session",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-10-22",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-11-05",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2025-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2025_annual.pdf"
+          ]
+        },
+        {
+          "date": "2026-01-15",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-01-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-02-01",
+          "action": "open",
+          "reason": "Budget special session",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-05-01",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-05-28",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        },
+        {
+          "date": "2026-12-25",
+          "action": "close",
+          "reason": "Annual exchange trading holiday",
+          "source_files": [
+            "nse_2026_holidays.pdf",
+            "nse_2026_election.pdf",
+            "nse_2026_budget.pdf"
+          ]
+        }
+      ],
+      "note": "Capital-market trading holidays, including election closure and Budget Sunday. Not a settlement or currency-derivatives calendar. Explicit unverified_dates are excluded from authoritative session counts."
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "calendar_2026_transcription.json",
+      "sha256": "3fcee78a8b94f98d3a244626211edfa14b6fbee57a3a2cbb5d754e1e21dca32d",
+      "kind": "reviewed_transcription_or_amendment"
+    },
+    {
+      "path": "calendar_amendments.json",
+      "sha256": "d0a8ff71beda0734c5a064dabbb675165b4f37c6267360a27539c28985ad0fc5",
+      "kind": "reviewed_transcription_or_amendment"
+    },
+    {
+      "path": "calendar_nse_transcription.json",
+      "sha256": "c1261c16b98666434620627c1a3a6a59c35343e30710f31807cdb5548ca87ac4",
+      "kind": "reviewed_transcription_or_amendment"
+    },
+    {
+      "path": "calendar_nyse_transcription.json",
+      "sha256": "582ba2def83921026bce12b029c11836bff8de85670b0420521560e088824337",
+      "kind": "reviewed_transcription_or_amendment"
+    },
+    {
+      "path": "../data/raw/audit_evidence/20261103/calendar_sources.json",
+      "sha256": "f0469dcffb2db79ad8619732ad17fd6ecd2c33de70b446dfa906e388ec525baf",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/audit_evidence/20261103/nse_2026_budget.pdf",
+      "sha256": "70458f7b8126f47584d4bc402a78dde357e42dbebaa5d53cfce0c70c82dabfc3",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf"
+    },
+    {
+      "path": "../data/raw/audit_evidence/20261103/nse_2026_election.pdf",
+      "sha256": "c5d32a838b46d5044717b830a4793479a51a40f8e4e19d3896c65682d15b6ebc",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf"
+    },
+    {
+      "path": "../data/raw/audit_evidence/20261103/nse_2026_holidays.pdf",
+      "sha256": "aa97e0afc0ce394097f2fc62631c68e3c2e4c7c23541ed35f21d9fc06b0dcacb",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"
+    },
+    {
+      "path": "../data/raw/audit_evidence/20261103/nyse_2026.html",
+      "sha256": "9ede5dd8af5a2ffef372d90e1fcac65ce3e9cb74ebab6d67edbce2d4bceae93c",
+      "kind": "original_source_bytes",
+      "url": "https://www.nyse.com/trade/hours-calendars"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_annual.pdf",
+      "sha256": "4f798db91049897c90cf381ac36c7c8a0315b7144dcf90dc1f6eb3d854e1055d",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR19539.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_annual.pdf.json",
+      "sha256": "de8a805c6103255a3957cc9f31903429136d1f696f8f6e4e28808550bf85abc1",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_april_special_confirmation.html",
+      "sha256": "ae14f04fa323daecc7411426fd6d8d453da97265fc11a0c6bb716a76be00790e",
+      "kind": "original_source_bytes",
+      "url": "https://www.cse-india.com/upload/CSE%20Notices%20%26%20Circulars/2012/Notice260412.htm"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_april_special_confirmation.html.json",
+      "sha256": "ec2d484dc8d4042c9b5b22a3d685b43648d69cd9fe3fc01be0284d94f3068338",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_january_special.pdf",
+      "sha256": "a8161ca8cb3c350de045b4ee234ebaec09573aa2232630a54792354184cd14a2",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR19734.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_january_special.pdf.json",
+      "sha256": "b65f59b4dfccba5248a5ab99ac90cdddca445a536fba6652ad56a40ff1adefde",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_march_special.pdf",
+      "sha256": "c7e20a561de073efb56f0dfd7a2274460e02f5d4ca424540a41b2bcc93921f2a",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR20063.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2012_march_special.pdf.json",
+      "sha256": "63a6b5f568f37464d541747e02e5065d75ca771153a41f0adc55894cc3218c84",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_annual.pdf",
+      "sha256": "2c9b5c2502129d03d4919ed6b81d440b76912d0f0a461d7684f3d6bab99fdf02",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR22317.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_annual.pdf.json",
+      "sha256": "f8b9536edc7f782b8bb664f15385f837d18be597eaaed8302389c8770b894672",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_may_special.pdf",
+      "sha256": "71445678dd4452b8ef468b4585ae6e82aeb69f5fa81a2617059e0470264733f0",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR23302.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_may_special.pdf.json",
+      "sha256": "81100582251f7927642317402b61286ec8b585eed082d9c1bd9410ad1ec15d74",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_moharram.pdf",
+      "sha256": "928113cf29df9df6ad5db93dc1c2657cb545353732f346da70e2f29979e3c273",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR24977.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2013_moharram.pdf.json",
+      "sha256": "e79c442835070ac2564314f27435fccc38ef6b035368175b072f1fd4ddd144fe",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_april_fo.pdf",
+      "sha256": "394c33d36af0ff31ea13adacc31ac45dbc799659de4b8767244e95349af14855",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/FAOP26362.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_april_fo.pdf.json",
+      "sha256": "df2f390f1d254b25bebc008dde1a2adeb9a4e947a9fadbd65b8cae662d078ab1",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_capital_market.pdf",
+      "sha256": "1247dc6cb843e6bfaa50c42d416dc021fd55cbbb6420c43e652d2b7a07fd2f35",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR25326.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_capital_market.pdf.json",
+      "sha256": "93f7dc6e798960fdcb5fd7029f67089d4aeb76a0946ffa40eace2d693467994a",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_election.pdf",
+      "sha256": "1e5e2964d919b72fc3728d2e4d2ba785f77aebb162188c260b8f3d6479590282",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR27792.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_election.pdf.json",
+      "sha256": "60cc3d97f7cc956f8a21bcc906664d1ef06086e67f2c49deaedbbaa0e991bb3d",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_march_special.pdf",
+      "sha256": "29c0eb8dad67a30944b8df6d6124f679811d9864ca30dd468b3742bf1fa28ca4",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR26045.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2014_march_special.pdf.json",
+      "sha256": "798ed7967429ce7d5a45850ea6940f5cad9f2449888e25077b00b69015d119dc",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2015_annual.pdf",
+      "sha256": "5733cf3b16cf5cf05879fb28777d0fbf6636c44c8dd204c8fe2f02ef9bb722c4",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR28337.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2015_annual.pdf.json",
+      "sha256": "d650086a87a01eb2ebd504cbc7071124944b7697485a20d63ccdbedcb417403a",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2016_annual.pdf",
+      "sha256": "bf33e9aade8773908fc5d6de105cc731e93bf063cd1564a82fe1998c5aaf6432",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR31297.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2016_annual.pdf.json",
+      "sha256": "5b4c3531dff17460639281eaa862c34e38c9b59bd261e3c88e8c54d91968ddc3",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2017_annual.pdf",
+      "sha256": "2fd7ee17432434df26154bbdb9de549d3e4a7acd4cf567843513457e9c98fbce",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR33746.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2017_annual.pdf.json",
+      "sha256": "52193b125c535501ea1f5b44bb8e3bed8fa901111f67d78a9167ec8e5c58ed89",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2018_annual.pdf",
+      "sha256": "d80ac64d32806f9ada629bc96ba91c6d85546dfde405f4468bbfcb194fdb22fb",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR36475.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2018_annual.pdf.json",
+      "sha256": "9744bdfaec55db62973835bd3f9d58bbf829313ba11b2445a107b3fdba1adbb2",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_annual.pdf",
+      "sha256": "3fe8f7356085b75a14efec16e765216d09b99be6f00ff2305d813a864394ab88",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR39612.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_annual.pdf.json",
+      "sha256": "db282529e15deab04c2ae70d4c501f6900955834e9e4b58c80bc68f3091f232b",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_april.pdf",
+      "sha256": "0ffd5d5c6f2e967947b0fafc45f285c2eff70abbde138b06e35d4ac8169ebc65",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR40536.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_april.pdf.json",
+      "sha256": "8d031a7bebf444a66f3e041ae32aa2ae789170e77faf4d9235be8c4ae0a6e651",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_october.pdf",
+      "sha256": "bc49d7698fefa2b9ed3a5fbb2477dd74e5ed04dc69cec3ff5e9aca074fcc1b8a",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/MSD42319.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2019_october.pdf.json",
+      "sha256": "17ede72ca1cafb223e7efebfa46fdf418efd6b76e650e039b45330d12b43c516",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2020_annual.pdf",
+      "sha256": "635535e35ddc37e79b188d9f21409210cfdef00f44cde1cb980c4f64ed005eaf",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR42877.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2020_annual.pdf.json",
+      "sha256": "e7acb692a766f0aa58409cf1325befe064eb7885d07d6902b26039464b580000",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2020_budget.pdf",
+      "sha256": "2f667503047c3399bc7c013271dd64b3119bc532b0cbb6d988d4d9a6998da4a9",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR43290.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2020_budget.pdf.json",
+      "sha256": "a16c877c132f46d68fb756b1f82537441748ff7dcf2bc6b3b31416e944fe1fb6",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2021_annual.pdf",
+      "sha256": "3c922e234ad2cbe8320cc34507e281477e0ce273ba9ee39d73da2a49d5629add",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR46623.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2021_annual.pdf.json",
+      "sha256": "1a9ef645d97793752681d5f78fada94009be5c17aeb3a7ee62d2a51f5bb1a584",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2022_annual.pdf",
+      "sha256": "731a4f0f3b3633e53ff344ffda23dab0277c4a6608f5a6da8874f931c9be4ead",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR50560.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2022_annual.pdf.json",
+      "sha256": "f51d78094dd3111e40080d28db65704fd447cae6768c446e15719a766f9b3530",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_annual.pdf",
+      "sha256": "035ea9a4178e322549b87c6d72f7fc74c7cec06e2d6074c01ac2a7e6a5a7b621",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR54757.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_annual.pdf.json",
+      "sha256": "3ed68967a98a592485a7c137dc19574b01b63a133112f1effcc34b4d89364791",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_bakri_confirmation.pdf",
+      "sha256": "b71de0cae04ffb9d0250e0c45a31aa739b12fc910542e5efbefbe10901ebd958",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMPT57296.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_bakri_confirmation.pdf.json",
+      "sha256": "79ab2c5d6a40321979e8c9ab2bf18ddd84793e881666c4a204552fcf880b3698",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_bakri_mirror.pdf",
+      "sha256": "f8294598d95fb8b070d59272a06621f8ac2a16755767b59ef95a5dc82f48dec3",
+      "kind": "original_source_bytes",
+      "url": "https://geplcapital.com/fundamental-research/649a873a2dbe6.1687848762.CMTR57285.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2023_bakri_mirror.pdf.json",
+      "sha256": "2260da2775161538667657977261f694889d44509b9ff4d28ff77cfa1f348fe4",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_annual.pdf",
+      "sha256": "7157229ba94c179d280dd0d732da56d0992c482e862fac72d9d3879626c77c8a",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR59722.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_annual.pdf.json",
+      "sha256": "dc6054201cdacd0152ac25cce9c07f223b685adef9b003f93871cbdc285c3ef6",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_january_confirmation.pdf",
+      "sha256": "8772f06a149e42733aa1a8391d991548c734485ce13112a7c5e6d5eb865d843a",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/SURV60342.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_january_confirmation.pdf.json",
+      "sha256": "e66656506a7d307e4dad1edd266bde5418860e7894dfb0b7b697a76d46bfc8a7",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_january_web_verification.json",
+      "sha256": "84155a73f47684baed4090be622921b13b30b075ec3f95bd4af5eb3c5ac7362a",
+      "kind": "researcher_transcription_from_web_reader",
+      "url": "https://nsearchives.nseindia.com/content/circulars/MSD60340.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_march_special.pdf",
+      "sha256": "04b67f39314bae95672d86497c28cbed6cea698ad6f029ba47ef74feb9f6da91",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/MSD60677.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_march_special.pdf.json",
+      "sha256": "c67b029c99f0c047644ad6cc05bca68d3c332079e6526e90f5d5aa8c85e6a3fc",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_may.pdf",
+      "sha256": "8f44e5dab885e081e9809aa41cbc6017309cf35281d29655a219d822e6f31a39",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR61518.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_may.pdf.json",
+      "sha256": "7cb64313a8c4f77e8dbb53fae8928f528e988704f8dca063469062e7215b24b3",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_may_special.pdf",
+      "sha256": "2483f60d67c34231d6fd25024cf5767c031b234196a7a475535d434cd4e758c8",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/MSD61893.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_may_special.pdf.json",
+      "sha256": "35f65b2cfecfa4652fe03fcfe87fac30283be6d95f28cf8b0716fa5ce49f12c7",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_november.pdf",
+      "sha256": "342b404b2f6631e8d2b74bb203e53faeb5e8b02abc21eb31094ef0c53b168e31",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR64960.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2024_november.pdf.json",
+      "sha256": "94c32de083afbda25d20d0fa106e2077cb0ac418ae354a3a7fc19e6eba28357f",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2025_annual.pdf",
+      "sha256": "1e0f85615fbbcde9243dd6cafbbad4d9b581b8d2467fd9e27c0a4fe42a720c7d",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR65587.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2025_annual.pdf.json",
+      "sha256": "32c450f88da24bb1075c088dcdf0b2296a61494c0e697816d5ead560875fcad5",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2025_budget.pdf",
+      "sha256": "84d12e29654e75f77baa0b9064a26f6d0e4c3ff58e64df14e01247a0c15a91be",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR65729.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_2025_budget.pdf.json",
+      "sha256": "ab1eace294fa98a0960b3c2dec5560f055333ddb76d4747e63c159e49100f6a3",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_annual_report_2013.pdf",
+      "sha256": "aa5df64d6ab43fd314754425bd9351e47e6167135703a54343907bc39e2597ad",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2013.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_annual_report_2013.pdf.json",
+      "sha256": "309bb17a36e8d3c5afea32612a1c79eb2975d2b5826a0406618ba9f4c36ecc14",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_annual_report_2015.pdf",
+      "sha256": "d11b024ba5ecb76fbb1fbf9322469a00e62c067362df8e275b0a738297073bb1",
+      "kind": "original_source_bytes",
+      "url": "https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2015.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nse_annual_report_2015.pdf.json",
+      "sha256": "6896cfd6ea41dc9ec9d7dc484a916df62e3a2bcff89a6fd5905db13af5bd03cb",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2012_2013_web_verification.json",
+      "sha256": "e5f9a18f0b67bb7e1d576d63bb1c2bde29c91ce2ff738c7f046756803dcd7a15",
+      "kind": "researcher_transcription_from_web_reader",
+      "url": "https://hk.marketscreener.com/quote/stock/NYSE-EURONEXT-13866/news/NYSE-EURO-NYSE-Euronext-NYX-Announces-its-2012-and-2013-Holiday-Calendar-and-Early-Closings-for-13533281/"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2012_sandy_web_verification.json",
+      "sha256": "176fce9ef61391150a26999056fe3d0f9857c6b03e112c89533c31b3ce2abeb7",
+      "kind": "researcher_transcription_from_web_reader",
+      "url": "https://www.sec.gov/files/rules/proposed/2013/34-69077.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2014_2015.pdf",
+      "sha256": "6628b0389afde967f92975981e9479e880f9e6a0b7e926805a0c2d32b3d44fee",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/archive/b97d77df-0ecb-4db0-9ced-75bdb9b218ba.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2014_2015.pdf.json",
+      "sha256": "9cd1cfc8445dd4f5dfec4b3029a2ec09bae1ef974751c9b3df60fc5f59de666c",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2015_2016.pdf",
+      "sha256": "27c9870ee1525a221306ce967961fdb6a5f1ff1e2debe80aeca0053be885e357",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/archive/442a7c75-b606-4b5d-9853-2efa7d6634c3.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2015_2016.pdf.json",
+      "sha256": "987e2b68030660f03f92532980c80bf25a1645abd405c40201db7c035b5950bf",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2017_2019.pdf",
+      "sha256": "b76374b14a3c828c585ef78b7817009ddd27cae9271eb1eb9ae82d0b6776305f",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/archive/313c9417-c6e3-46d3-b820-dbc7d9961ebd.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2017_2019.pdf.json",
+      "sha256": "e9990bd2ca5b711f0b4c159ef636bb7579d3d6824db497b566a51cdb14ff1275",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2018_bush.pdf",
+      "sha256": "46e28f7864ed20dac04b3acfc51a4cbea6937f57ba01d427226e6837c8785b7c",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/archive/266fafb2-a85c-433a-8350-0760d895b49c.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2018_bush.pdf.json",
+      "sha256": "8963e990cb017daefd3eb86760c65178be66bb36e40dd713d0eaaed822fcf04b",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2020_2022_initial.pdf",
+      "sha256": "685a189e56b95efda98e8c7cbcb17a661de6e4aa49b9f78b1aa943925a0ac9c2",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/archive/91a5230f-7233-4a93-b30a-79c9411ebdbe.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2020_2022_initial.pdf.json",
+      "sha256": "ac1b2df8d7ad362684ca3ea3773bdd2b0bb51e605cce5bf636c5a4dc5aca8ad9",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2022_2024.pdf",
+      "sha256": "b8537e458aa0f7123c014056da9260d08f3e874b32f7f617d99451f36e049e90",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2022-2023-and-2024-Holiday-and-Early-Closings-Calendar-2021.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2022_2024.pdf.json",
+      "sha256": "de3a8aed683a6923ee2b772d5ad3b182134cc724f2d4b8ac08f3c5e13e1afff5",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2023_2025.pdf",
+      "sha256": "8092099cfc8c408089257004d61da3fba4ca6b7161ed722aac1189fe83a67186",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2023-2024-and-2025-Holiday-and-Early-Closings-Calendar-2022.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2023_2025.pdf.json",
+      "sha256": "214217f1eed6eaa852e8bc17715a70f9c6057e596a01d365124380a60882583b",
+      "kind": "retrieval_metadata"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2025_carter.pdf",
+      "sha256": "b83882b2f29554a969c30f5a48c37eff3b6baab449273bfdb3d8c3df62244c69",
+      "kind": "original_source_bytes",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/The-New-York-Stock-Exchange-Will-Close-Markets-on-January-9-to-Honor-the-Passing-of-Former-President-Jimmy-Carter-on-National-Day-of--IGCRS.pdf"
+    },
+    {
+      "path": "../data/raw/calendar_evidence/20261103/nyse_2025_carter.pdf.json",
+      "sha256": "6a025da5607a2acac192c288c750e17e41806604ad81759f4151324c574eeb43",
+      "kind": "retrieval_metadata"
+    }
+  ]
+}

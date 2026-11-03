@@ -1,0 +1,15 @@
+{
+  "audit_id": "572f825c852d8c0c540a207e",
+  "calendar_sha256": "a95d218ac1fa43fe0d2014a5c7d83f8aebd5e21d677f5daa52c26a723ac7c475",
+  "baseline_audit_id": "6b40c1052542abcbb4675b6e",
+  "baseline_flags_sha256": "fe3cadf63604c5320d9177d9a09c82e01b49ef2f6e2a0ad159cc53f912ce69ab",
+  "confirmed_historical_closure_asset_dates": 464,
+  "unverified_historical_asset_dates": 1,
+  "confirmed_historical_weekend_observations": 17,
+  "outputs": {
+    "calendar_verification.md": "e44978101e93f82c805e1b32f061b84ce8967e320ad517019a3f46e1ca1845ae",
+    "calendar_verification_by_year.csv": "e45302808e6a872db0cdd6df43e8d71b3408b80a0b7f1da6f242f472afe41f05",
+    "calendar_review.csv": "8d6dfce66b3bfd3b270ae2230e61774919034a0a3ae0e76660017ea6386e5ebb",
+    "special_session_review.csv": "fe80a308c37a59ed4d098d27859b6b75dc56331375faf6d72b6aa497f72a9f49"
+  }
+}

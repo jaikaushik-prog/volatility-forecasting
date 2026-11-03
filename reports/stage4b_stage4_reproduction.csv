@@ -1,0 +1,9 @@
+target,model,n,qlike,exact_forecast_and_coefficient_reproduction
+intraday,har,226,-8.917409405650364,True
+intraday,log_har,226,-8.932755338508425,True
+intraday,har_vix,226,125283.84788527201,True
+intraday,rv_ewma,226,-8.839284041793617,True
+intraday_overnight,har,226,-8.510748516464325,True
+intraday_overnight,log_har,226,-8.547311840979559,True
+intraday_overnight,har_vix,226,118805.65829022836,True
+intraday_overnight,rv_ewma,226,-8.49380016868028,True

@@ -1,0 +1,14 @@
+{
+  "status": "DRAFT_NOT_FROZEN",
+  "config": "config/h4_monitoring.toml",
+  "config_sha256": "047c0354cde2ced6dd2945ca60232381313234927ffd89c856583cfba05da84c",
+  "note": "DRAFT development-only thresholds for review; not frozen; no prospective data read",
+  "latest_target_date_read": "2023-12-31",
+  "outputs": {
+    "draft_alert_burden_development.csv": "6e650988b5a6704d3984307ab5252eb0d33366e1fb285906ffa17f55e0a3b6d1",
+    "draft_alert_thresholds.csv": "fffecf9903d83da4f16e42351754b17dedeed881291d5fe1404f551c5a49454d",
+    "draft_event_thresholds.csv": "41310a98d3f0fbaf5cfc2849edb7230db4552d84aa150231f1bdfda33e8243ca",
+    "draft_standardized_return_quantiles.csv": "c3652acbf64e7f78918b28c2f355cdc3294e6d3d841f41962cbf879db7c8ea33",
+    "model_inventory.csv": "19f49476716e7a89a3ebdef3671fe6c537e1d739fe597e7d6ebb2381e6c18885"
+  }
+}

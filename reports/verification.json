@@ -1,0 +1,77 @@
+{
+  "verified_at_utc": "2026-11-03T04:59:30.528005+00:00",
+  "environment": {
+    "python": "3.12.3",
+    "volrisk": "0.1.0",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "yfinance": "0.2.61",
+    "pyarrow": "16.1.0",
+    "pytest": "7.4.4"
+  },
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q --junitxml=reports/pytest-results.xml",
+    "environment": {
+      "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+    },
+    "exit_code": 0,
+    "count": 73,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 11.674,
+    "fixtures": "Small synthetic fixtures in pytest temporary directories; never research outputs."
+  },
+  "ingestion": {
+    "command": ".venv/Scripts/python.exe -m volrisk --config config/ingestion.toml",
+    "exit_code": 0,
+    "run_id": "20261103T045329099102Z_79120125",
+    "complete": true,
+    "mode": "Explicit offline replay of real Yahoo and NSE downloads made on 2026-11-03",
+    "processed_files": {
+      "SPY": "C:\\Users\\DELL\\Desktop\\nexus-volatility-research\\data\\processed\\20261103T045329099102Z_79120125\\SPY.parquet",
+      "VT": "C:\\Users\\DELL\\Desktop\\nexus-volatility-research\\data\\processed\\20261103T045329099102Z_79120125\\VT.parquet",
+      "NIFTY50_TRI": "C:\\Users\\DELL\\Desktop\\nexus-volatility-research\\data\\processed\\20261103T045329099102Z_79120125\\NIFTY50_TRI.parquet"
+    },
+    "source_snapshot_files": 34,
+    "checks": [
+      {
+        "asset": "SPY",
+        "observations": 3730,
+        "currency": "USD",
+        "raw_bytes_match_originals": true,
+        "prices_match_sources_exactly": true,
+        "native_source_dates_preserved": true,
+        "simple_returns_verified": true,
+        "missing_or_invalid_prices": 0,
+        "extreme_returns_retained": 2
+      },
+      {
+        "asset": "VT",
+        "observations": 3730,
+        "currency": "USD",
+        "raw_bytes_match_originals": true,
+        "prices_match_sources_exactly": true,
+        "native_source_dates_preserved": true,
+        "simple_returns_verified": true,
+        "missing_or_invalid_prices": 0,
+        "extreme_returns_retained": 2
+      },
+      {
+        "asset": "NIFTY50_TRI",
+        "observations": 3677,
+        "currency": "INR",
+        "raw_bytes_match_originals": true,
+        "prices_match_sources_exactly": true,
+        "native_source_dates_preserved": true,
+        "simple_returns_verified": true,
+        "missing_or_invalid_prices": 0,
+        "extreme_returns_retained": 1
+      }
+    ]
+  },
+  "limitations": [
+    "Weekday gaps include holidays; exchange-session completeness is not independently certified.",
+    "Original NSE response-save times are preserved; exact HTTP-completion times were not recorded separately."
+  ]
+}

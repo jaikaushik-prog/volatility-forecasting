@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "path": "reports/pytest-stage5.xml",
+      "tests": 324,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "path": "reports/pytest-stage5-new.xml",
+      "tests": 40,
+      "failed": 0,
+      "skipped": 0
+    }
+  ],
+  "unique_tests": 326,
+  "explanation": "Full suite: 324 passing. Final Stage5 suite:40 passing after two added tests and final Stage5 changes; 286 unchanged pre-existing tests plus40 Stage5 tests =326 unique. No failures. Separate JUnit files preserve the actual executions."
+}

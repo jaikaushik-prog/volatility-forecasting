@@ -1,0 +1,19 @@
+asset,date,price,review_status,reason,source_files,supporting_source
+NIFTY50_TRI,2012-01-07,6023.77,SPECIAL_SESSION_CONFIRMED,Special live trading session,nse_2012_january_special.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR19734.pdf
+NIFTY50_TRI,2012-03-03,6805.53,SPECIAL_SESSION_CONFIRMED,Special live trading session,nse_2012_march_special.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR20063.pdf
+NIFTY50_TRI,2012-04-28,6618.61,SPECIAL_SESSION_CONFIRMED,NSE cash-market live session confirmed by CSE exchange notice,nse_2012_april_special_confirmation.html,https://www.cse-india.com/upload/CSE%20Notices%20%26%20Circulars/2012/Notice260412.htm
+NIFTY50_TRI,2012-09-08,6877.73,SPECIAL_SESSION_CONFIRMED,"Special live session confirmed in NSE annual report 2012-13 PDF page 16, cash/derivatives chart note",nse_annual_report_2013.pdf,https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2013.pdf
+NIFTY50_TRI,2013-05-11,7866.9,SPECIAL_SESSION_CONFIRMED,Special live trading session,nse_2013_may_special.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR23302.pdf
+NIFTY50_TRI,2013-11-03,8217.74,SPECIAL_SESSION_CONFIRMED,Muhurat trading session,nse_2013_annual.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR22317.pdf
+NIFTY50_TRI,2014-03-22,8464.28,SPECIAL_SESSION_CONFIRMED,Special live trading from BCP site,nse_2014_march_special.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR26045.pdf
+NIFTY50_TRI,2015-02-28,11723.28,SPECIAL_SESSION_CONFIRMED,"Special session confirmed in NSE annual report 2014-15 PDF page 12, cash/derivatives chart note",nse_annual_report_2015.pdf,https://nsearchives.nseindia.com/global/content/about_us/NSEIL_Annual_Report_2015.pdf
+NIFTY50_TRI,2016-10-30,11628.32,SPECIAL_SESSION_CONFIRMED,Muhurat trading session,nse_2016_annual.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR31297.pdf
+NIFTY50_TRI,2019-10-27,16315.17,SPECIAL_SESSION_CONFIRMED,Muhurat trading session,nse_2019_annual.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR39612.pdf
+NIFTY50_TRI,2020-02-01,16369.0,SPECIAL_SESSION_CONFIRMED,Union Budget live session,nse_2020_budget.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR43290.pdf
+NIFTY50_TRI,2020-11-14,18124.93,SPECIAL_SESSION_CONFIRMED,Muhurat trading session,nse_2020_annual.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR42877.pdf
+NIFTY50_TRI,2023-11-12,28686.47,SPECIAL_SESSION_CONFIRMED,Muhurat trading session,nse_2023_annual.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR54757.pdf
+NIFTY50_TRI,2024-01-20,31712.86,SPECIAL_SESSION_CONFIRMED,Regular live equity session at primary site; MSD60340 supersedes original DR-session notice MSD59999,nse_2024_january_web_verification.json,https://nsearchives.nseindia.com/content/circulars/MSD60340.pdf
+NIFTY50_TRI,2024-03-02,32942.63,SPECIAL_SESSION_CONFIRMED,Special live session with DR-site switchover,nse_2024_march_special.pdf,https://nsearchives.nseindia.com/content/circulars/MSD60677.pdf
+NIFTY50_TRI,2024-05-18,33190.97,SPECIAL_SESSION_CONFIRMED,Special live session with DR-site switchover,nse_2024_may_special.pdf,https://nsearchives.nseindia.com/content/circulars/MSD61893.pdf
+NIFTY50_TRI,2025-02-01,34958.89,SPECIAL_SESSION_CONFIRMED,Union Budget live session,nse_2025_budget.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR65729.pdf
+NIFTY50_TRI,2026-02-01,37392.92,SPECIAL_SESSION_CONFIRMED,Budget special session,nse_2026_holidays.pdf | nse_2026_election.pdf | nse_2026_budget.pdf,https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf | https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf | https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf

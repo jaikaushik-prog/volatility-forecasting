@@ -1,0 +1,35 @@
+PAGE 1
+ 
+National Stock Exchange of India Limited 
+ 
+ 
+Circular 
+Department: CAPITAL MARKET SEGMENT 
+Download Ref No: NSE/CMTR/57285 Date: June 27, 2023 
+Circular Ref. No: 76/2023  
+ 
+All Members, 
+ 
+Change in Trading Holiday 
+ 
+As per the attached notification of Maharashtra general administration department dated June 26, 2023 
+regarding change in holiday on account of Bakri ID (Id -Ul-Zuha) on June 29, 2023 and in partial modification 
+to Exchange circular download reference no. NSE/CMTR/54757 dated December 08, 2022 members may 
+kindly note the change in trading holiday in June 2023.  
+ 
+Current Trading Holiday  Revised Trading Holiday  
+June 28, 2023 June 29, 2023 
+ 
+Members are advised to load the updated security.gz file in the trading application before trading on June 28, 
+2023. This file can be obtained from the directory common/NTNEAT on the Extranet server. 
+ 
+For and on behalf of 
+National Stock Exchange of India Limited 
+ 
+Khushal Shah 
+Associate Vice President 
+ 
+ 
+ 
+Toll Free No Email id 
+1800-266-0050 (Option 1) msm@nse.co.in 

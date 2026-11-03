@@ -1,0 +1,13 @@
+NIFTY50_TRI  expanding       origins= 3425 valid= 3425 missing=   0 fits= 3425 failed=  0 nonconv=  0 runtime=1.5s
+NIFTY50_TRI  rolling_20      origins= 3425 valid= 3425 missing=   0 fits= 3425 failed=  0 nonconv=  0 runtime=1.5s
+NIFTY50_TRI  rolling_60      origins= 3425 valid= 3425 missing=   0 fits= 3425 failed=  0 nonconv=  0 runtime=1.5s
+NIFTY50_TRI  ewma_094        origins= 3425 valid= 3425 missing=   0 fits= 3425 failed=  0 nonconv=  0 runtime=7.8s
+SPY          expanding       origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.5s
+SPY          rolling_20      origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.6s
+SPY          rolling_60      origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.6s
+SPY          ewma_094        origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=7.2s
+VT           expanding       origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.7s
+VT           rolling_20      origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.8s
+VT           rolling_60      origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=1.5s
+VT           ewma_094        origins= 3478 valid= 3478 missing=   0 fits= 3478 failed=  0 nonconv=  0 runtime=6.4s
+Run 20261103T111342457204Z_c4c4f2ec | holdout sealed=True | published=False | C:\Users\DELL\Desktop\nexus-volatility-research\experiments\baseline\runs\20261103T111342457204Z_c4c4f2ec | 60s

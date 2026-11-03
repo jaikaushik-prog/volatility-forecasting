@@ -1,0 +1,35 @@
+{
+  "run_id": "20261103T115607990025Z_4774c4a9",
+  "status": "PASS",
+  "artifact_hashes_verified": 47,
+  "raw_source_files_unchanged": 34,
+  "sealed_cutoff": "2024-12-31",
+  "forecast_rows": 97112,
+  "fit_attempts": 37984,
+  "assets": [
+    {
+      "asset": "SPY",
+      "currency": "USD",
+      "validation_common_sessions": 753,
+      "calendar_intervals_excluded": [],
+      "audit_status": "WARNING"
+    },
+    {
+      "asset": "VT",
+      "currency": "USD",
+      "validation_common_sessions": 753,
+      "calendar_intervals_excluded": [],
+      "audit_status": "WARNING"
+    },
+    {
+      "asset": "NIFTY50_TRI",
+      "currency": "INR",
+      "validation_common_sessions": 743,
+      "calendar_intervals_excluded": [
+        "2014-04-25"
+      ],
+      "audit_status": "WARNING"
+    }
+  ],
+  "scope": "Artifact, provenance and temporal checks; does not certify statistical superiority or remove prior holdout exposure."
+}

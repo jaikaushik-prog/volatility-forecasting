@@ -1,0 +1,18 @@
+{
+  "run_id": "d3094f857ec08cfaad204970",
+  "status": "PASS_NUMERICAL_TEMPORAL_AND_HASH_CHECKS",
+  "findings_status": "PROVISIONAL",
+  "holdout_evaluated": false,
+  "last_target": "2024-12-31",
+  "forecast_records": 158300,
+  "issued_before_outcome_records": 158300,
+  "fit_records": 57448,
+  "outputs_verified": 45,
+  "source_input_hashes_verified": 105,
+  "pytest": {
+    "tests": 259,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

@@ -1,0 +1,13 @@
+target,model,origins,valid_predictions,common_evaluation_dates,missing_origin_features,warmup_or_gap_reset,other_prediction_failures,unavailable_targets
+intraday,har,249,227,226,22,0,0,1
+intraday,log_har,249,227,226,22,0,0,1
+intraday,log_har_vix,249,227,226,22,0,0,1
+intraday,log_har_vix_change,249,227,226,22,0,0,1
+intraday,ridge_log_har_vix,249,227,226,22,0,0,1
+intraday,rv_ewma,249,227,226,0,22,0,1
+intraday_overnight,har,249,227,226,22,0,0,1
+intraday_overnight,log_har,249,227,226,22,0,0,1
+intraday_overnight,log_har_vix,249,227,226,22,0,0,1
+intraday_overnight,log_har_vix_change,249,227,226,22,0,0,1
+intraday_overnight,ridge_log_har_vix,249,227,226,22,0,0,1
+intraday_overnight,rv_ewma,249,227,226,0,22,0,1

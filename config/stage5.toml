@@ -1,0 +1,56 @@
+# Separate exploratory economic registration; NEVER amends the frozen forecast protocol.
+[data]
+audit_pointer = "reports/latest_audit.json"
+asset = "NIFTY50_TRI"
+instrument_status = "NON_EXECUTABLE_THEORETICAL_TOTAL_RETURN_INDEX"
+stage4_panel = "experiments/har_rv/runs/d3094f857ec08cfaad204970/panels/NIFTY_5m_eligible.parquet"
+cutoff = "2024-12-31"
+status = "PROVISIONAL_EXPLORATORY"
+
+[estimation]
+models = ["ewma", "garch", "har_daily", "log_har_daily", "log_har_vix_daily"]
+forecast_start = "2023-09-01"
+har_window = 500
+har_min_pairs = 126
+refit_every = 21
+garch_window = 1000
+garch_min_observations = 500
+ewma_decay = 0.94
+ewma_initial_observations = 252
+max_annual_volatility = 5.0
+horizons = [2, 3]
+
+[periods]
+development_start = "2023-10-02" # First execution close; first P&L next session.
+development_end = "2023-12-29"
+evaluation_start = "2024-01-01"
+evaluation_end = "2024-12-31"
+
+[policy]
+primary_target_vol = 0.12
+targets = [0.10, 0.12, 0.15]
+cost_bps = [5.0, 10.0, 20.0]
+primary_cost_bps = 10.0
+frequencies = ["daily", "weekly"]
+bands = [0.0, 0.05]
+minimum_exposure = 0.0
+maximum_exposure = 1.0
+constant_exposure = 0.60
+annual_cash_rate = 0.0 # Scenario, not observed historical risk-free data.
+cash_sensitivity = 0.04
+minimum_exposure_sensitivity = 0.25
+failure_policy = "hold"
+execution = "next_close"
+initial_capital = 1000000.0
+
+[statistics]
+seed = 20261103
+bootstrap_draws = 2000
+block_length = 10
+alpha = 0.05
+shock_return = -0.02
+recovery_sessions = 10
+
+[outputs]
+root = "experiments/stage5/runs"
+reports = "reports"

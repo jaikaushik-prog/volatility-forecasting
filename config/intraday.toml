@@ -1,0 +1,68 @@
+schema_version = 1
+calendar_file = "config/intraday_calendar.json"
+daily_calendar_file = "config/calendars.json"
+output_root = "data/processed"
+reports_root = "reports"
+frequencies = [1, 5, 10, 15]
+sessions_per_year = 252
+calendar_days_per_year = 365
+
+[quality]
+minimum_session_completeness = 1.0
+index_extreme_log_return = 0.01
+vix_extreme_log_return = 0.10
+mad_multiple = 15.0
+stale_run_minutes = 10
+vix_max_age_seconds = 90
+jump_min_intervals = 20
+
+[features]
+rv_frequency = 5
+vix_percentile_window = 252
+vix_percentile_min_history = 60
+
+[assets.nifty]
+asset = "NIFTY"
+exchange = "NSE"
+files = ["data/raw/NIFTY 1min 2022-2025.csv", "data/raw/NIFTY 1min YTD 2026.csv"]
+timezone = "Asia/Kolkata"
+timezone_verified = false
+bar_label = "start"
+bar_label_verified = false
+instrument = "spot_index_candidate"
+instrument_verified = false
+expected_stock_codes = ["NIFTY"]
+unit = "index_points"
+currency = "INR"
+source = "user-supplied CSV; vendor and retrieval time unknown"
+
+[assets.sensex]
+asset = "SENSEX"
+exchange = "BSE"
+files = ["data/raw/SENSEX 1min 2023-2026.csv"]
+timezone = "Asia/Kolkata"
+timezone_verified = false
+bar_label = "start"
+bar_label_verified = false
+instrument = "spot_index_candidate"
+instrument_verified = false
+expected_stock_codes = ["BSESEN"]
+unit = "index_points"
+currency = "INR"
+source = "user-supplied CSV; vendor and retrieval time unknown"
+
+[assets.india_vix]
+asset = "INDIA_VIX"
+exchange = "NSE"
+files = ["data/raw/INDIA VIX_minute (1).csv"]
+omitted_pickle = "data/raw/INDIAVIX_yf.pkl"
+timezone = "Asia/Kolkata"
+timezone_verified = false
+bar_label = "start"
+bar_label_verified = false
+instrument = "implied_volatility_index_candidate"
+instrument_verified = false
+expected_stock_codes = []
+unit = "annualized_volatility_percent"
+currency = "not_applicable"
+source = "user-supplied CSV; vendor and retrieval time unknown; pickle never deserialized"

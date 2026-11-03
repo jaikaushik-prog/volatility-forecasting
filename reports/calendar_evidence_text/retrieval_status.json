@@ -1,0 +1,287 @@
+[
+  {
+    "file": "nse_2012_annual.pdf",
+    "status": "archived",
+    "characters": 1826
+  },
+  {
+    "file": "nse_2013_annual.pdf",
+    "status": "archived",
+    "characters": 1781
+  },
+  {
+    "file": "nse_2015_annual.pdf",
+    "status": "archived",
+    "characters": 1834
+  },
+  {
+    "file": "nse_2016_annual.pdf",
+    "status": "archived",
+    "characters": 1817
+  },
+  {
+    "file": "nse_2017_annual.pdf",
+    "status": "archived",
+    "characters": 1791
+  },
+  {
+    "file": "nse_2018_annual.pdf",
+    "status": "archived",
+    "characters": 1836
+  },
+  {
+    "file": "nse_2019_annual.pdf",
+    "status": "archived",
+    "characters": 1755
+  },
+  {
+    "file": "nse_2020_annual.pdf",
+    "status": "archived",
+    "characters": 1665
+  },
+  {
+    "file": "nse_2021_annual.pdf",
+    "status": "archived",
+    "characters": 1677
+  },
+  {
+    "file": "nse_2022_annual.pdf",
+    "status": "archived",
+    "characters": 1746
+  },
+  {
+    "file": "nse_2023_annual.pdf",
+    "status": "archived",
+    "characters": 1786
+  },
+  {
+    "file": "nse_2024_annual.pdf",
+    "status": "archived",
+    "characters": 1812
+  },
+  {
+    "file": "nse_2025_annual.pdf",
+    "status": "archived",
+    "characters": 1790
+  },
+  {
+    "file": "nse_2014_election.pdf",
+    "status": "archived",
+    "characters": 925
+  },
+  {
+    "file": "nse_2023_bakri.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='archives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR57285.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E01520B470>: Failed to resolve 'archives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2024_january.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='archives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR60338.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E013FCE210>: Failed to resolve 'archives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2024_may.pdf",
+    "status": "archived",
+    "characters": 736
+  },
+  {
+    "file": "nse_2024_november.pdf",
+    "status": "archived",
+    "characters": 764
+  },
+  {
+    "file": "nse_2014_annual.pdf",
+    "status": "archived",
+    "characters": 1579
+  },
+  {
+    "file": "nse_2013_moharram.pdf",
+    "status": "archived",
+    "characters": 945
+  },
+  {
+    "file": "nyse_2014_2015.pdf",
+    "status": "archived",
+    "characters": 2684
+  },
+  {
+    "file": "nyse_2015_2016.pdf",
+    "status": "archived",
+    "characters": 3192
+  },
+  {
+    "file": "nyse_2020_2022_initial.pdf",
+    "status": "archived",
+    "characters": 4693
+  },
+  {
+    "file": "nyse_2022_2024.pdf",
+    "status": "archived",
+    "characters": 5778
+  },
+  {
+    "file": "nyse_2023_2025.pdf",
+    "status": "archived",
+    "characters": 5655
+  },
+  {
+    "file": "nse_2023_bakri_mirror.pdf",
+    "status": "archived",
+    "characters": 1059
+  },
+  {
+    "file": "nse_2023_bakri_confirmation.pdf",
+    "status": "archived",
+    "characters": 765
+  },
+  {
+    "file": "nse_2014_capital_market.pdf",
+    "status": "archived",
+    "characters": 1783
+  },
+  {
+    "file": "nyse_2017_2019.pdf",
+    "status": "archived",
+    "characters": 2720
+  },
+  {
+    "file": "nse_2024_january_confirmation.pdf",
+    "status": "archived",
+    "characters": 1083
+  },
+  {
+    "file": "nyse_2012_2013_release_mirror.html",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='hk.marketscreener.com', port=443): Max retries exceeded with url: /quote/stock/NYSE-EURONEXT-13866/news/NYSE-EURO-NYSE-Euronext-NYX-Announces-its-2012-and-2013-Holiday-Calendar-and-Early-Closings-for-13533281/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E01520B800>: Failed to resolve 'hk.marketscreener.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2019_april.pdf",
+    "status": "archived",
+    "characters": 762
+  },
+  {
+    "file": "nse_2019_october.pdf",
+    "status": "archived",
+    "characters": 1268
+  },
+  {
+    "file": "nse_2013_may_special.pdf",
+    "status": "archived",
+    "characters": 1499
+  },
+  {
+    "file": "nse_annual_report_2014.pdf",
+    "status": "archived",
+    "characters": 902348
+  },
+  {
+    "file": "nse_annual_report_2013.pdf",
+    "status": "archived",
+    "characters": 877725
+  },
+  {
+    "file": "nse_annual_report_2012.pdf",
+    "status": "archived",
+    "characters": 745540
+  },
+  {
+    "file": "nyse_2018_bush.pdf",
+    "status": "archived",
+    "characters": 4295
+  },
+  {
+    "file": "nyse_2025_carter.pdf",
+    "status": "archived",
+    "characters": 4336
+  },
+  {
+    "file": "nyse_2012_sandy_sec.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='www.sec.gov', port=443): Max retries exceeded with url: /rules/proposed/2013/34-69077.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E015209340>: Failed to resolve 'www.sec.gov' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2012_january_special.pdf",
+    "status": "archived",
+    "characters": 2229
+  },
+  {
+    "file": "nse_2012_march_special.pdf",
+    "status": "archived",
+    "characters": 1816
+  },
+  {
+    "file": "nse_2020_budget.pdf",
+    "status": "archived",
+    "characters": 1633
+  },
+  {
+    "file": "nse_2025_budget.pdf",
+    "status": "archived",
+    "characters": 1475
+  },
+  {
+    "file": "nse_2024_january_special.pdf",
+    "status": "archived",
+    "characters": 7724
+  },
+  {
+    "file": "nse_2024_march_special.pdf",
+    "status": "archived",
+    "characters": 8564
+  },
+  {
+    "file": "nse_2024_may_special.pdf",
+    "status": "archived",
+    "characters": 8359
+  },
+  {
+    "file": "nse_2012_april_special_confirmation.html",
+    "status": "archived",
+    "characters": 1428
+  },
+  {
+    "file": "nse_annual_report_2015.pdf",
+    "status": "archived",
+    "characters": 470700
+  },
+  {
+    "file": "nse_2014_april_cm_a.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR26361.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E015209640>: Failed to resolve 'nsearchives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2014_april_cm_b.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR26363.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E01520BC20>: Failed to resolve 'nsearchives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2014_april_fo.pdf",
+    "status": "archived",
+    "characters": 1289
+  },
+  {
+    "file": "nse_2014_march_special.pdf",
+    "status": "archived",
+    "characters": 6538
+  },
+  {
+    "file": "nse_2015_budget_cd_reference.pdf",
+    "status": "archived",
+    "characters": 904
+  },
+  {
+    "file": "nse_2024_january_final.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/MSD60340.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E01524C2C0>: Failed to resolve 'nsearchives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2014_april_cash_candidate.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR26364.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E01524CA40>: Failed to resolve 'nsearchives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "file": "nse_2014_april_cash_candidate_b.pdf",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /content/circulars/CMTR26365.pdf (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E013B7C050>: Failed to resolve 'nsearchives.nseindia.com' ([Errno 11001] getaddrinfo failed)\"))"
+  }
+]

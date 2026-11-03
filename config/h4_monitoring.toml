@@ -1,0 +1,138 @@
+# H4 volatility-based risk monitoring — DRAFT FOR REVIEW. NOT FROZEN. NO PROSPECTIVE EVALUATION AUTHORIZED.
+# Advisory only: this configuration defines no trading, position-reduction or reallocation action.
+# Separate from, and never amends, reports/frozen_forecasting_protocol.md or any Stage 2-6 configuration.
+
+[protocol]
+name = "H4_volatility_risk_monitoring"
+version = "0.2.0-draft"
+status = "DRAFT_NOT_FROZEN"          # FROZEN only after review sign-off, hashing and timestamped registration
+drafted = "2026-11-03"
+advisory_only = true
+automatic_trading = false
+automatic_position_reduction = false
+automatic_reallocation = false
+success_measured_by_pnl = false
+directional_signal = false           # high volatility is never a bearish or crash signal
+
+[governance]
+primary_audience = ["CIO", "co-CIO"]
+secondary_audience = ["analyst_long_only_equity"]
+read_only_audience = ["investment_committee"]
+# Service levels are review placeholders, not yet agreed.
+elevated_acknowledgment_deadline = "before_next_session_open"
+critical_review_deadline = "same_session_day"
+discretionary_authority = "existing_fund_approval_rules"
+
+[schedule]
+primary_horizon_sessions = 1
+report_cadence = "after_each_session_when_required_data_available"
+weekly_summary = true                # descriptive only; NOT a validated five-session forecast
+future_horizons_reserved = [5]       # separate experiment; requires horizon-consistent models, targets and evaluation
+calendar = "exchange_native_sessions"
+
+# ------------------------------------------------------------------ risk definition
+[risk]
+scope = "market_index_risk"          # NOT the risk of WSC's combined stock portfolio
+primary_measure = "next_session_conditional_return_volatility"
+common_target = "next_session_squared_close_to_close_log_return"   # every model, production or provisional
+secondary_measure = "probability_next_session_abs_return_exceeds_event_threshold"
+secondary_events = ["ELEVATED", "CRITICAL"]   # thresholds: [events]
+probability_methods = ["normal", "filtered_historical"]   # P(|r| > c) = P(|z| > c / sigma_forecast)
+primary_probability_method = "filtered_historical"        # REVIEW (R6)
+reliability_reported_separately = true
+
+[data]
+primary_asset = "NIFTY50_TRI"
+assets = ["NIFTY50_TRI", "SPY", "VT"]
+max_staleness_sessions = 0           # a report must use the just-closed session; otherwise state = DATA_STALE
+provenance_signoff_complete = false  # intraday RV / India VIX / vendor spot: frozen_forecasting_protocol.md gates
+
+# ------------------------------------------------------------------ models
+# Every previously researched model appears exactly once. Grade decides whether it may influence production-grade
+# classifications. Exactly one production model per asset drives alerts; all other models are logged shadows.
+[models]
+alert_model = "gjr_normal"           # REVIEW (R1): chosen on 2012-2021 development QLIKE/calibration only
+development_window = ["2012-01-01", "2021-12-31"]
+source_run = "experiments/econometric/runs/20261103T112009388792Z_e137742e"
+advanced_source_run = "experiments/advanced/runs/20261103T115607990025Z_4774c4a9"
+
+[models.production]                  # audited daily close-to-close inputs only; eligible for production classification
+inputs = "audited_daily_close_to_close_returns"
+assets = ["NIFTY50_TRI", "SPY", "VT"]
+names = ["expanding", "rolling_20", "rolling_60", "ewma_094",
+         "garch_normal", "garch_t", "egarch_normal", "egarch_t", "gjr_normal", "gjr_t",
+         "markov_switching_2", "xgboost_v1"]
+
+[models.provisional]                 # unverified intraday RV, India VIX or vendor spot inputs
+grade = "PROVISIONAL"
+contributes_to_production = false    # never counted in production consensus, thresholds or levels
+reported_as = "separately_labelled_provisional_panel"
+promotion_rule = "provenance_signoff_then_new_protocol_version_before_evaluation"
+# Stage 4 models: existing close-to-close (NIFTY spot) forecasts, development 2022-10-27..2023-12-29
+existing_close_to_close = ["previous", "mean5", "mean22", "rv_ewma", "har", "har_overnight", "har_vix",
+                           "har_vix_overnight", "log_har", "spot_ewma", "spot_garch", "spot_egarch", "spot_gjr"]
+existing_source_run = "experiments/har_rv/runs/d3094f857ec08cfaad204970"
+existing_development_window = ["2022-01-01", "2023-12-31"]
+# Native target is intraday RV (Stage 4B) or horizon 2 (Stage 5): horizon-1 close-to-close re-specification
+# of the same estimators is required before freeze; until then they are inventory only.
+requires_respecification = ["log_har_vix_c2c_h1", "log_har_vix_change_c2c_h1", "ridge_log_har_vix_c2c_h1",
+                            "har_daily_h1", "log_har_daily_h1", "log_har_vix_daily_h1"]
+archived_comparators = ["legacy_levels_har_vix"]   # frozen protocol: not a prospective candidate
+
+# ------------------------------------------------------------------ alerts
+[alerts]
+levels = ["NORMAL", "ELEVATED", "CRITICAL"]
+operational_states = ["DATA_UNAVAILABLE", "DATA_STALE", "MODEL_FAILURE"]   # never silently reported as NORMAL
+elevated_percentile = 75.0           # illustrative; of the alert model's development forecast-volatility distribution
+critical_percentile = 90.0           # illustrative; REVIEW (R2) before freeze
+threshold_basis = "development_forecast_distribution_per_asset"
+escalation = "immediate"
+deescalation_consecutive_sessions = 3    # REVIEW (R3)
+no_model_substitution = true
+thresholds_optimized_on_2024 = false
+risk_fields = ["asset", "report_date", "target_session", "horizon_sessions", "alert_level", "previous_alert_level",
+               "forecast_volatility_annualized", "forecast_variance", "threshold_elevated", "threshold_critical",
+               "forecast_percentile_vs_development", "prob_abs_return_above_elevated_event",
+               "prob_abs_return_above_critical_event", "probability_method", "reason", "model", "model_version"]
+reliability_fields = ["calibration_status", "recent_forecast_errors", "availability_status", "last_return_date",
+                      "data_retrieved_at", "data_freshness_status", "data_quality_issues", "provenance_status",
+                      "production_models_available", "production_models_above_critical",
+                      "production_forecast_dispersion", "provisional_panel"]
+standard_limitations = [
+  "This is an estimate of market-index risk, not the risk of WSC's combined stock portfolio.",
+  "High forecast volatility is not a bearish signal and does not predict a crash or a negative return.",
+  "Advisory only: no position is changed by this system.",
+  "One-session horizon; the weekly summary is descriptive and not a five-session forecast.",
+  "Thresholds come from a fixed historical development window and may not reflect the current regime.",
+  "Shocks that arrive within the forecast session cannot be anticipated by a close-to-close forecast.",
+  "Provisional models use unverified intraday or VIX inputs and do not affect the alert level.",
+]
+
+# ------------------------------------------------------------------ events (secondary measure and detection targets)
+[events]
+basis = "development_realized_distribution_per_asset"
+measure = "abs_close_to_close_log_return"
+elevated_realized_percentile = 75.0
+critical_realized_percentile = 90.0
+weekly_descriptive_measure = "five_session_sum_squared_log_return"   # weekly summary only; not an evaluation target
+
+# ------------------------------------------------------------------ prospective evaluation
+[evaluation]
+start_rule = "first_scheduled_session_strictly_after_freeze_and_registration"
+sessions = 252
+minimum_eligible_sessions = 200
+early_stopping = false
+extension = false
+interim_monitoring = "data_integrity_and_operational_only"
+bootstrap_draws = 10000
+bootstrap_block = 10
+seed = 20261103
+alpha = 0.05
+multiplicity = "holm"
+alert_metrics = ["precision", "recall", "false_positive_rate", "missed_event_rate"]
+volatility_calibration = ["calibration_ratio", "mincer_zarnowitz", "qlike"]
+probability_calibration = ["brier_score", "brier_skill_vs_base_rate", "reliability_bins"]
+benchmark_alert_rules = ["rolling_20_percentile", "unconditional_base_rate"]
+availability_requirement = 0.98      # REVIEW: share of scheduled sessions with a timely, valid alert-model report
+report_deadline = "before_next_session_open"
+provisional_models_evaluated = "descriptive_only_separate_table"
