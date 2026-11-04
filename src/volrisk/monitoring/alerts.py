@@ -28,12 +28,14 @@ def classify(vols, elevated, critical, deescalate_after=3, operational=None):
     An operational state (missing, stale or failed forecast) is reported as itself and never as NORMAL.
     It does not reset the hysteresis counter, so the last valid level resumes when data return.
     """
-    if not 0 < elevated < critical:
+    if not np.isfinite([elevated, critical]).all() or not 0 < elevated < critical:
         raise ValueError('Require 0 < elevated < critical')
     if deescalate_after < 1:
         raise ValueError('deescalate_after must be at least 1')
     vols = np.asarray(vols,dtype=float)
     operational = [None]*len(vols) if operational is None else list(operational)
+    if vols.ndim != 1 or len(operational) != len(vols):
+        raise ValueError('Forecasts and operational states must be aligned one-dimensional sequences')
     out, current, below = [], 'NORMAL', 0
     for vol, op in zip(vols, operational):
         if op is not None:
