@@ -1,0 +1,21 @@
+# Separate engineering MVP; does not amend H4 or any registered experiment.
+[protocol]
+name = "NEXUS_daily_risk_brief"
+version = "0.1.0"
+status = "DRAFT"
+advisory_only = true
+
+[inputs]
+calendar = "config/calendars.json"
+model_config = "config/forecasting.toml"
+alert_thresholds = "reports/h4_draft/draft_alert_thresholds.csv"
+event_thresholds = "reports/h4_draft/draft_event_thresholds.csv"
+
+[report]
+asset = "NIFTY50_TRI"
+alert_model = "gjr_normal"
+models = ["gjr_normal", "ewma_094", "rolling_20"]
+deescalation_sessions = 3
+sessions_per_year = 252
+probability_method = "normal"
+preview_cutoff = "2024-12-31"
